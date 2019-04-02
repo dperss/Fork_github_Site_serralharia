@@ -454,4 +454,15 @@ input[type=submit]:hover {
     background-color:white;
     color: black;
 }
+.button1 {
+    background-color: saddlebrown;
+    color:white;
+    border:gray;
+    padding: 15px 32px;
 
+}
+
+.button1:hover {
+    background-color:saddlebrown;
+    color: white;
+}
