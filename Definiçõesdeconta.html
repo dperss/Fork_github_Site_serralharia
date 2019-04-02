@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Definicao da conta</title>
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: white;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+
+        li a:hover {
+            background-color:brown;
+            color: white;
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 100px;
+        }
+        .column button {
+            float: left;
+            padding: 8px;
+            background:firebrick;
+            color: white;
+            font-size: 17px;
+            border: 1px solid black;
+            border-left: none;
+            cursor: pointer;
+            margin: auto;
+            width: 100px;
+        }
+        .column button:hover {
+            background: brown;
+        }
+        .column input{
+            padding: 8px;
+            font-size: 17px;
+            border: 1px solid gray;
+            float: left;
+            width:200px;
+            background:white;
+        }
+        #perfil {
+            width: 46px;
+            height: 44px;
+            background: url(imagens) 0 0;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="column">
+<h2> Definicoes da conta</h2>
+
+<ul>
+    <li><a href="#atualizar">Atualizar Email</a></li>
+    <li><a href="#mudar">Mudar Senha</a></li>
+    <li><a href="#apagar">Apagar Conta </a></li>
+
+</ul>
+</div>
+<div class="column">
+    <img id="perfil" src="" width="200" height="200"><br><br>
+    <input type="text" placeholder="carregar Foto">
+    <button type="submit"><i class="fa fa-search">Pesquisar</i></button>
+
+</div>
+</body>
+</html>

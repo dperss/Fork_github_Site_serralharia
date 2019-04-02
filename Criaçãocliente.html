@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>criacao de cliente</title>
+<style>
+    input[type=text], select {
+        width: 100%;
+        padding: 10px 5px;
+        margin: 10px 0;
+        display: inline-block;
+        border: 1px solid gray;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 20%;
+        background-color: brown;
+        color: white;
+        padding: 10px 5px;
+        margin: 2px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color:white;
+        color: black;
+    }
+
+    div {
+        border-radius: 5px;
+        background-color:white;
+        padding:50px;
+        width: border-box;
+    }
+    hr {
+        border: 0.5px solid firebrick;
+        height: 0.5px;
+    }
+</style>
+<body>
+<h1>Inscrever-se</h1>
+<h4>Por favor, preencha o seguinte formulario para criar uma conta.</h4>
+
+
+<hr>
+
+<div><form>
+
+    <label for="nome"><strong>Primeiro Nome</strong></label>
+    <input type="text" id="nome"placeholder="Primeiro Nome...">
+
+    <label for="unome"><strong>Ultimo Nome</strong></label>
+           <input type="text" id="unome"placeholder="Ultimo Nome">
+    <label for="tel"><strong>Telefone</strong></label>
+           <input type="text" id="tel"placeholder="Telefone">
+    <label for="morada"><strong>Morada</strong></label>
+            <input type="text" id="morada"placeholder="Morada">
+    <label for="nif"><strong>NIF</strong></label>
+            <input type="text" id="nif" placeholder="NIF">
+    <label for="email"><strong>Email</strong></label>
+            <input type="text" id="email"placeholder="Email">
+    <label for="senha"><strong>Senha</strong></label>
+          <input type="text" id="senha" placeholder="**********">
+    <label for="rsenha"><strong>Repita a Senha</strong></label>
+    <input type="text" id="rsenha" placeholder="**********">
+    <p>Ao criar uma conta, voce concorda com os nossos Termos e Privacidade.</p>
+    <input type="submit" value="Submeter">
+</form>
+</div>
+
+</body>
+</html>

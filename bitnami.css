@@ -429,3 +429,29 @@ span.psw {
     padding 2%;
     padding-top: 100px;
 }
+.rconta{
+
+    border-radius: 5px;
+    background-color:white;
+    padding: 20px;
+    width: border-box;
+
+}
+
+
+input[type=submit] {
+    width: 20%;
+    background-color:saddlebrown;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:white;
+    color: black;
+}
+
