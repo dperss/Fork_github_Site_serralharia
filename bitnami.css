@@ -285,7 +285,7 @@ input[type=text], input[type=password] {
 
 button {
     background-color: #9C5120;
-    color: white;
+    color: white !important;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -472,8 +472,7 @@ input[type=submit]:hover {
     padding-bottom: 50px;
     width: border-box;
     margin: auto;
-
-
+    overflow: auto
 
 }
 
@@ -517,3 +516,52 @@ input[type=submit]:hover {
     height: 200px;
     background: url(imagens) 0 0;
 }
+.btn-group .button {
+    background-color: saddlebrown;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+.btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+    background-color: saddlebrown;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #9C5120;
+    color: white;
+}
+
+.next {
+    background-color: #9C5120;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+
