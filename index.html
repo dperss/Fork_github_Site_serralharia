@@ -19,106 +19,106 @@
 
 </head>
   <body class="">
-    <div class="container conta">
+  <div class="container conta">
       <div class="headerBar">
-        <div class="row">
+          <div class="row">
 
-          <div class="headerLeft">
-            <a href="index.html" title="Ramos"><img src="img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
+              <div class="headerLeft">
+                  <a href="index.html" title="Ramos"><img src="img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
 
-          <div class="headerRight">
+              <div class="headerRight">
 
-            <div class="headerUtils">
-              <div class="headerlogin">
-                  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+                  <div class="headerUtils">
+                      <div class="headerlogin">
+                          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
-                  <div id="id01" class="modal">
+                          <div id="id01" class="modal">
 
-                      <form class="modal-content animate" action="/action_page.php">
-                          <div class="imgcontainer">
-                              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                              <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+                              <form class="modal-content animate" action="/action_page.php">
+                                  <div class="imgcontainer">
+                                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                      <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+                                  </div>
+
+                                  <div class="container5">
+
+                                      <label for="uname"><b>Username</b></label>
+                                      <input type="password" placeholder="Usuario" name="uname" required="">
+
+                                      <label for="psw"><b>Password</b></label>
+                                      <input type="password" placeholder="Password" name="psw" required="">
+
+                                      <button type="submit">Login</button>
+                                      <label>
+                                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                                      </label>
+
+                                  </div>
+
+                                  <div class="container6" style="background-color:white">
+                                      <a class="button-two" title="Esqueceu-se da password?" href="#">Esqueceu-se da password?</a>
+                                      <a class="button-three" title="Registar" href="#">Registar</a>
+
+                                  </div>
+                              </form>
                           </div>
 
-                          <div class="container5">
+                          <script>
+                              // Get the modal
+                              var modal = document.getElementById('id01');
 
-                              <label for="uname"><b>Username</b></label>
-                              <input type="password" placeholder="Usuario" name="uname" required="">
+                              // When the user clicks anywhere outside of the modal, close it
+                              window.onclick = function(event) {
+                                  if (event.target == modal) {
+                                      modal.style.display = "none";
+                                  }
+                              }
+                          </script>
+                      </div>
 
-                              <label for="psw"><b>Password</b></label>
-                              <input type="password" placeholder="Password" name="psw" required="">
 
-                              <button type="submit">Login</button>
-                              <label>
-                                  <input type="checkbox" checked="checked" name="remember"> Remember me
-                              </label>
 
-                          </div>
 
-                          <div class="container6" style="background-color:white">
-                              <a class="button-two" title="Esqueceu-se da password?" href="Recuperar_conta.html">Esqueceu-se da password?</a>
-                              <a class="button-three" title="Registar" href="Criaçãocliente.html">Registar</a>
-
-                          </div>
-                      </form>
                   </div>
 
-                  <script>
-                      // Get the modal
-                      var modal = document.getElementById('id01');
+                  <div class="headerMenu">
+                      <div class="contentMenu">
+                          <nav class="navbar navbar-default">
+                              <div class="container-fluid">
+                                  <div class="navbar-header">
+                                      <button type="button" class="navbar-toggle navbar-left collapsed" data-toggle="collapse" data-target="#menuPrincipal" aria-expanded="false">
+                                          <span class="sr-only">Toggle navigation</span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                      </button>
+                                  </div>
+                                  <div class="collapse navbar-collapse" id="menuPrincipal">
+                                      <ul class="nav navbar-nav">
 
-                      // When the user clicks anywhere outside of the modal, close it
-                      window.onclick = function(event) {
-                          if (event.target == modal) {
-                              modal.style.display = "none";
-                          }
-                      }
-                  </script>
+                                          <li class="">
+                                              <a href="index.html">Início</a>                                </li>
+                                          <li class="">
+                                              <a href="empresa.html">Empresa</a>                                </li>
+                                          <li class="">
+                                              <a href="Grades.html">Produtos</a>                                </li>
+                                          <li class="">
+                                              <a href="serviços.html">Serviços</a>                                </li>
+                                          <li class="">
+                                              <a href="contactos.html">Contactos</a>                                </li>
+                                      </ul>
+
+                                  </div>
+                              </div>
+                          </nav>
+                      </div>
+                  </div>
               </div>
 
 
-
-
-            </div>
-
-            <div class="headerMenu">
-              <div class="contentMenu">
-                                      <nav class="navbar navbar-default">
-                      <div class="container-fluid">
-                        <div class="navbar-header">
-                          <button type="button" class="navbar-toggle navbar-left collapsed" data-toggle="collapse" data-target="#menuPrincipal" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                          </button>
-                        </div>
-                        <div class="collapse navbar-collapse" id="menuPrincipal">
-                          <ul class="nav navbar-nav">
-
-                                                              <li class="">
-                                  <a href="index.html">Início</a>                                </li>
-                                                              <li class="">
-                                  <a href="empresa.html">Empresa</a>                                </li>
-                                                              <li class="">
-                                  <a href="produtos.html">Produtos</a>                                </li>
-                                                              <li class="">
-                                   <a href="serviços.html">Serviços</a>                                </li>
-                              <li class="">
-                                  <a href="contactos.html">Contactos</a>                                </li>
-                                                        </ul>
-
-                        </div>
-                      </div>
-                    </nav>
-                                </div>
-            </div>
           </div>
-
-
-    </div>
       </div>
-    </div>
+  </div>
 
 
 
