@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52049a9a-5806-4ee4-96b7-2f2619ad3efd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitnami.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitnami.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,81 +27,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Janelas.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="128" column="28" lean-forward="true" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Grades.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Portas.html">
+        <entry file="file://$PROJECT_DIR$/DAL/UtilizadorDAL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="139" column="58" selection-start-line="139" selection-start-column="58" selection-end-line="139" selection-end-column="58" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitnami.css">
+        <entry file="file://$PROJECT_DIR$/DAL/CategoriaDAL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="504" column="19" selection-start-line="504" selection-start-column="19" selection-end-line="504" selection-end-column="19" />
-              <folding>
-                <element signature="e#5800#7347#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="952">
+              <caret line="56" column="101" selection-start-line="56" selection-start-column="101" selection-end-line="56" selection-end-column="101" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Janelas.html~origin_master">
+        <entry file="file://$PROJECT_DIR$/BL/Categoria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2148" />
+            <state relative-caret-position="238">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Portoes.html">
+        <entry file="file://$PROJECT_DIR$/BL/Produtos_Reservados.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="140" column="42" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BL/Utilizador.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BL/Reserva.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BL/Mensagem.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DAL/ProdutoDAL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BL/Produto.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -118,9 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>for</find>
-      <find>.carr</find>
-      <find>contenido</find>
       <find>Contenidos</find>
       <find>divi</find>
       <find>url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0M0ZBQjE5NTU5OUZFNjExQjY2QkQ3MDY0RDlBQzlEQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozMDdGNTE1ODVENkIxMUU3QTEyNkI3QkVFNzA2NzZBRCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozMDdGNTE1NzVENkIxMUU3QTEyNkI3QkVFNzA2NzZBRCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkY4RTg5MEQ3RDY2OTExRTY5NEREQ0RDMUNCQUI0QjU4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkY4RTg5MEQ4RDY2OTExRTY5NEREQ0RDMUNCQUI0QjU4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+mTfnrAAAAGtJREFUeNpi+v//PwMSngXEjWhiKJiJARVcBeJCIA5gwAWwmFIGxJ+BWBubDbisXgrEj4BYkFgN7EB8Fog3AzErMRoYoKbfAOJV+DxNGFDLSSR5mqRgzQfiT0AcQGxMawNxPxBvwOVngAADALuvU6NCvCLFAAAAAElFTkSuQmCC) no-repeat 10px center #00263d</find>
@@ -145,10 +143,18 @@
       <find>hidden</find>
       <find>.headerBar .headerSearch</find>
       <find>navbar</find>
-      <find>login</find>
       <find>.headerUtils</find>
       <find>Search</find>
+      <find>login</find>
+      <find>artigo</find>
+      <find>categori</find>
+      <find>Categoria_numero_categoria</find>
     </findStrings>
+    <replaceStrings>
+      <replace>email</replace>
+      <replace>Produto</replace>
+      <replace>Categoria_id</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -176,12 +182,25 @@
         <option value="$PROJECT_DIR$/Janelas.html" />
         <option value="$PROJECT_DIR$/Portas.html" />
         <option value="$PROJECT_DIR$/bitnami.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/BL/Artigo.php" />
+        <option value="$PROJECT_DIR$/DAL/ArtigoDAL.php" />
+        <option value="$PROJECT_DIR$/BL/Utilizador.php" />
+        <option value="$PROJECT_DIR$/DAL/UtilizadorDAL.php" />
+        <option value="$PROJECT_DIR$/BL/Categoria.php" />
+        <option value="$PROJECT_DIR$/DAL/ProdutoDAL.php" />
+        <option value="$PROJECT_DIR$/DAL/CategoriaDAL.php" />
+        <option value="$PROJECT_DIR$/BL/Produto.php" />
+        <option value="$PROJECT_DIR$/BL/Produtos_Reservados.php" />
+        <option value="$PROJECT_DIR$/BL/Reserva.php" />
+        <option value="$PROJECT_DIR$/BL/Mensagem.php" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php_installation_&lt;version&gt;" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="592" />
-    <option name="y" value="-10" />
+    <option name="x" value="138" />
+    <option name="y" value="-16" />
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
@@ -198,6 +217,16 @@
               <item name="site_serralharia" type="b2602c69:ProjectViewProjectNode" />
               <item name="site_serralharia" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="site_serralharia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_serralharia" type="462c0819:PsiDirectoryNode" />
+              <item name="BL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site_serralharia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_serralharia" type="462c0819:PsiDirectoryNode" />
+              <item name="DAL" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -208,9 +237,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Exercício20" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,6 +297,9 @@
       <workItem from="1554237720685" duration="1962000" />
       <workItem from="1554300670236" duration="8297000" />
       <workItem from="1554366164611" duration="2381000" />
+      <workItem from="1556026549305" duration="1669000" />
+      <workItem from="1556195019770" duration="6418000" />
+      <workItem from="1556372658270" duration="3363000" />
     </task>
     <task id="LOCAL-00001" summary="Produtos">
       <created>1554366509882</created>
@@ -285,15 +319,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92403000" />
+    <option name="totallyTimeSpent" value="103853000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.16111952" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16792738" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -305,7 +339,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.88379705" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32718894" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -393,13 +428,6 @@
     <entry file="file://$PROJECT_DIR$/applications.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/empresa.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -465,36 +493,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/produtos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2686">
-          <caret line="155" column="14" selection-end-line="155" selection-end-column="14" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Janelas.html~origin_master">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2148" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/produtos.html" />
+    <entry file="file://$PROJECT_DIR$/Janelas.html~origin_master" />
     <entry file="file://$PROJECT_DIR$/Portas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="139" column="58" selection-start-line="139" selection-start-column="58" selection-end-line="139" selection-end-column="58" />
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -508,37 +512,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitnami.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="8568">
           <caret line="504" column="19" selection-start-line="504" selection-start-column="19" selection-end-line="504" selection-end-column="19" />
-          <folding>
-            <element signature="e#5800#7347#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Portoes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="140" column="42" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
+        <state relative-caret-position="2057">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Grades.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Janelas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="128" column="28" lean-forward="true" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -550,8 +555,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Grades.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/DAL/ArtigoDAL.php" />
+    <entry file="file://$PROJECT_DIR$/BL/Artigo.php" />
+    <entry file="file://$PROJECT_DIR$/BL/Utilizador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BL/Reserva.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BL/Produtos_Reservados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BL/Produto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BL/Mensagem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BL/Categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAL/CategoriaDAL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="101" selection-start-line="56" selection-start-column="101" selection-end-line="56" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAL/ProdutoDAL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAL/UtilizadorDAL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

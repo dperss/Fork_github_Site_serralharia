@@ -1,12 +1,21 @@
 <?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/dashboard/');
-	exit;
-?>
-Something is wrong with the XAMPP installation :-(
-teste 1234
+
+class Pessoa {
+    private $nome;
+    function __construct($nome){
+    $this->nome = $nome;
+}
+    function getNome(){
+        return $this->nome;
+    }
+    }
+
+    class Aluno extends Pessoa{
+    private $num;
+    function __construct($nome, $num){
+        $this->num=$num;
+        parent::__construct($nome);}
+}
+
+$jose=new Aluno("José", "5555");
+echo $jose->getNome();
