@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__)."/../dataAbstraction/DB.php";
+require_once dirname(__FILE__)."/DB.php";
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -15,11 +15,14 @@ class UtilizadorDAL {
     public static function create($e, $num){
         
         $db=DB::getDB();
-        $query="INSERT INTO Utilizador (login, password, Tipo_de_Utilizador) "."VALUES (:login, :password, :Tipo_de_Utilizador)";
+        $query="INSERT INTO Utilizador (nome , email, password,endereco,Tipo_de_Utilizador,NIF) "."VALUES (:nome, :email, :password,:endereco,Tipo_de_Utilizador,NIF)";
         $parms=[
-            'login' => $e->login,
+            'nome' => $e->nome,
+            'email' => $e->email,
             'password' => $e->password,
+            'endereco' => $e->endereco,
             'Tipo_de_Utilizador' => $num
+            'NIF' => $e->NIF,
         ];
         $res=$db->query($query,$parms);
         if($res){
@@ -48,11 +51,11 @@ class UtilizadorDAL {
         return($res);
     }
     
-    public static function retrieveByName($e){
+    public static function retrieveByEmail($e){
         $db=DB::getDB();
-        $query="SELECT * FROM Utilizador WHERE login=:login";
+        $query="SELECT * FROM Utilizador WHERE email=:email";
         $parms=[
-            'login' => $e->login
+            'email' => $e->email
         ];
         $res=$db->query($query,$parms);
         $res->setFetchMode(PDO::FETCH_CLASS,"Utilizador"); //Para podermos usar a notacao de objeto em vez de array
@@ -65,9 +68,9 @@ class UtilizadorDAL {
     
     public static function retrieveByLoginPassword($e){
         $db=DB::getDB();
-        $query="SELECT * FROM Utilizador WHERE login=:login and password=:password";
+        $query="SELECT * FROM Utilizador WHERE email=:email and password=:password";
         $params=[
-            ':login' => $e->login,
+            ':email' => $e->email,
             ':password' => $e->password
         ];
         $res=$db->query($query, $params);
@@ -81,9 +84,9 @@ class UtilizadorDAL {
     
     public static function retrieveById($e){
         $db=DB::getDB();
-        $query="SELECT id FROM Utilizador WHERE login=:login and password=:password";
+        $query="SELECT id FROM Utilizador WHERE email=:email and password=:password";
         $params=[
-            ':login' => $e->login,
+            ':email' => $e->email,
             ':password' => $e->password
         ];
         $res=$db->query($query, $params);

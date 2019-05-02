@@ -8,7 +8,7 @@
  */
 
 /**
- * Description of Funcionario
+ * Description of Utilizador
  *
  * @author Diogo Ramos
  */
@@ -25,9 +25,12 @@ class Utilizador {
     
     public function copy($row){
             $this->id=$row->id;
-            $this->email=$row->email;
+            $this->nome=$row->nome;
+            $this->email=$row->emai;
             $this->password=$row->password;
+            $this->endereco=$row->endereco;
             $this->Tipo_de_Utilizador=$row->Tipo_de_Utilizador;
+            $this->NIF=$row->NIF;
     }
     
     public function create(){
@@ -48,7 +51,7 @@ class Utilizador {
         return (UtilizadorDAL::retrieveAll());
     }
     
-    public function retrieveByName(){
+    public function retrieveByEmail(){
         return (UtilizadorDAL::retrieveByemail($this));
     }
     
