@@ -17,6 +17,10 @@ class Produto {
     public $nome;
     public $Categoria_id;
 
+
+    public function _construct(){
+        $this->Categoria_id=new Categoria();
+    }
     public function copy($row){
         $this->id=$row->id;
         $this->nome=$row->nome;

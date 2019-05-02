@@ -21,6 +21,10 @@ class Produtos_Reservados {
     public $produto_id;
     public $reserva_id;
 
+    public function _construct(){
+        $this->reserva_id=new Reserva();
+        $this->produto_id=new Produto();
+    }
     public function copy($row){
         $this->preço=$row->preço;
         $this->medidas=$row->medidas;

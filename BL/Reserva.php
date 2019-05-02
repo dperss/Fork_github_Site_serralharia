@@ -18,7 +18,9 @@ class Reserva {
     public $data;
     public $mensagem_id;
 
-
+    public function _construct(){
+        $this->mensagem_id=new Mensagem();
+    }
     public function copy($row){
         $this->id=$row->id;
         $this->data=$row->data;

@@ -18,8 +18,10 @@ class Mensagem {
     public $assunto;
     public $utilizador_id;
     public $data;
-    
-    
+
+    public function _construct(){
+        $this->utilizador_id=new Utilizador();
+    }
     public function copy($row){
         $this->id=$row->id;
         $this->assunto=$row->assunto;
