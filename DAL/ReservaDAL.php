@@ -15,12 +15,12 @@ class ReservaDAL {
 
     public static function create($e){
 
-        $data = date("Y-m-d H:i:s"); //devolve a data atual do sistema, no formato ano-mes-dia horas:minutos:segundos, exemplo: 2019-05-25 22:57:00
+        $data = date("Y-m-d H:i:s");
         $db=DB::getDB();
-        $query="INSERT INTO reserva (descricao, data, orcamento, funcionario_id, pedido_id) "."VALUES (:descricao, :data ,:orcamento, :funcionario_id, :pedido_id)";
+        $query="INSERT INTO reserva (data, mensagem_id) "."VALUES (:data ,:mensagem_id)";
         $parms=[
             'data' => $data,
-            'mensagem_id' => $mensagem_id,
+            'mensagem_id' => $e->mensagem_id,
         ];
         $res=$db->query($query,$parms);
         if($res){
@@ -56,41 +56,21 @@ class ReservaDAL {
             'id' => $e->id
         ];
         $res=$db->query($query,$parms);
-        $res->setFetchMode(PDO::FETCH_CLASS,"reserva"); //Para podermos usar a notacao de objeto em vez de array
-        $row=$res->fetch(); //Como o name é unico so pode dar 1 valor ou 0 logo podemos fazer o fetch de um so valor em vez de um while
-        if($row){   //Com isto inserimos os atributos da BD na instancia criada no index que entra neste metodo
+        $res->setFetchMode(PDO::FETCH_CLASS,"reserva");
+        $row=$res->fetch();
+        if($row){
             $e->copy($row);
         }
         return($row);
     }
 
-
-    public static function retrieveIdName(){
-        $db=DB::getDB();
-        $query="SELECT id, descricao FROM reserva";
-        $res=$db->query($query);
-        $res->setFetchMode(PDO::FETCH_ASSOC); //Devolve um array associativo entre id e descrição
-        return $res;
-    }
-
-    public static function retrieveOrcamento(){ //Devolve o valor do orçamento da reserva
-        $db=DB::getDB();
-        $query='SELECT orcamento FROM reserva';
-        $res=$db->query($query);
-        $orcamento=$res->fetchColumn();
-        return($orcamento);
-    }
-
     public static function update($e){
-        $idFuncionario= FuncionarioDAL::retriveId(); //guarda o id do funcionário na variável
-        $data = date("Y-m-d H:i:s"); //devolve a data atual do sistema, no formato ano-mes-dia horas:minutos:segundos, exemplo: 2017-05-25 22:57:00
+        $data = date("Y-m-d H:i:s");
         $db=DB::getDB();
-        $query="UPDATE reserva set descricao=:descricao, data=:data, orcamento=:orcamento, funcionario_id=:funcionario_id WHERE id=:id";
+        $query="UPDATE reserva set descricao=:descricao, data=:data, orcamento=:orcamento WHERE id=:id";
         $params=[
-            ':descricao' => $e->descricao,
             ':data' => $data,
             ':orcamento' => $e->orcamento,
-            ':funcionario_id' => $idFuncionario,
             ':id' => $e->id
         ];
         $res=$db->query($query, $params);
@@ -100,9 +80,7 @@ class ReservaDAL {
 
     public static function validate($e){
         $db=DB::getDB();
-        if($e->orcamento < 0)
-            return ($e->id=-1);
-        else return 0;
+        return 0;
     }
 
     public static function nReservas($e){

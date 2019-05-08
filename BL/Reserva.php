@@ -13,14 +13,12 @@ require_once dirname(__FILE__).'/../DAL/MensagemDAL.php';
  * @author Diogo Ramos
  */
 class Reserva {
-    //put your code here
+
     public $id;
     public $data;
     public $mensagem_id;
 
-    public function _construct(){
-        $this->mensagem_id=new Mensagem();
-    }
+
     public function copy($row){
         $this->id=$row->id;
         $this->data=$row->data;
@@ -29,7 +27,7 @@ class Reserva {
 
     public function create(){
         $res=false;
-        $res=ReservaDAL::create($this); //Tem de passar como parametro o proprio objeto
+        $res=ReservaDAL::create($this);
         return($res);
     }
 
@@ -43,10 +41,6 @@ class Reserva {
 
     public function retrieveByID(){
         return (ReservaDAL::retrieveByID($this));
-    }
-
-    public static function retrieveIdName(){
-        return (ReservaDAL::retrieveIdName());
     }
 
     public function update(){

@@ -24,7 +24,7 @@ class Categoria {
 
     public function create(){
         $res=false;
-        $res=ProdutoDAL::create($this); //Tem de passar como parametro o proprio objeto
+        $res=ProdutoDAL::create($this);
         return($res);
     }
 
@@ -54,7 +54,4 @@ class Categoria {
         }
     }
 
-    public static function pesquisa($palavra){
-        return (ProdutoDAL::pesquisa($palavra));
-    }
 }

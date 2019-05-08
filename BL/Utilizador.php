@@ -37,9 +37,9 @@ class Utilizador {
         $res=false;
         $db=DB::getDB();        
         $num= UtilizadorDAL::nUtilizadores($this);
-        if($num==0) $num=1; //Caso nao hajam utilizadores na base de dados o proximo user a ser criado terá o parametro Admin=1
-        else  $num=0; //Caso contrario(Ja existam users na BD) todos os users serao criados com o parametro Admin=0
-        $res=UtilizadorDAL::create($this, $num); //Tem de passar como parametro o proprio objeto
+        if($num==0) $num=1;
+        else  $num=0;
+        $res=UtilizadorDAL::create($this, $num);
         return($res);
     }
     

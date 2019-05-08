@@ -15,13 +15,13 @@ class UtilizadorDAL {
     public static function create($e, $num){
         
         $db=DB::getDB();
-        $query="INSERT INTO Utilizador (nome , email, password,endereco,Tipo_de_Utilizador,NIF) "."VALUES (:nome, :email, :password,:endereco,Tipo_de_Utilizador,NIF)";
+        $query="INSERT INTO Utilizador (nome , email, password, endereco,Tipo_de_Utilizador,NIF) "."VALUES (:nome, :email, :password,:endereco,Tipo_de_Utilizador,NIF)";
         $parms=[
             'nome' => $e->nome,
             'email' => $e->email,
             'password' => $e->password,
             'endereco' => $e->endereco,
-            'Tipo_de_Utilizador' => $num
+            'Tipo_de_Utilizador' => $num,
             'NIF' => $e->NIF,
         ];
         $res=$db->query($query,$parms);
@@ -58,9 +58,9 @@ class UtilizadorDAL {
             'email' => $e->email
         ];
         $res=$db->query($query,$parms);
-        $res->setFetchMode(PDO::FETCH_CLASS,"Utilizador"); //Para podermos usar a notacao de objeto em vez de array
-        $row=$res->fetch(); //Como o name é unico so pode dar 1 valor ou 0 logo podemos fazer o fetch de um so valor em vez de um while
-        if($row){   //Com isto inserimos os atributos da BD na instancia criada no index que entra neste metodo
+        $res->setFetchMode(PDO::FETCH_CLASS,"Utilizador");
+        $row=$res->fetch();
+        if($row){
             $e->copy($row);
         }
         return($row);
@@ -98,19 +98,18 @@ class UtilizadorDAL {
         return($row);
     }
     
-    public static function nUtilizadores($e){ //Conta o número de utilizadores na base de dados
+    public static function nUtilizadores($e){ /
         $db=DB::getDB();
         $query="SELECT count(*) FROM Utilizador";
         $res=$db->query($query);
-        $nFuncionarios=$res->fetchColumn();
-        return($nFuncionarios);
+        return$res;
     }
     
     public static function retrieveIdName(){
         $db=DB::getDB();
         $query="SELECT id, login FROM Utilizador ORDER BY id";
         $res=$db->query($query);
-        $res->setFetchMode(PDO::FETCH_ASSOC); //Devolve um array associativo entre id e login
+        $res->setFetchMode(PDO::FETCH_ASSOC);
         return $res;
     }
     
@@ -118,10 +117,9 @@ class UtilizadorDAL {
         $db=DB::getDB();
         $query="UPDATE utilizador set login=:login, password=:password, admin=:admin WHERE id=:id";
         $params=[
-            ':login' => $e->login,
+            ':email' => $e->email,
             ':password' => $e->password,
             ':admin' => $e->admin,
-            ':id' => $e->id
         ];
         $res=$db->query($query, $params);
         

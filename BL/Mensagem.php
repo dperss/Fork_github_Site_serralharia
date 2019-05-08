@@ -13,15 +13,13 @@ require_once dirname(__FILE__).'/../DAL/UtilizadorDAL.php';
  * @author Diogo Ramos
  */
 class Mensagem {
-    //put your code here
+
     public $id;
     public $assunto;
     public $utilizador_id;
     public $data;
 
-    public function _construct(){
-        $this->utilizador_id=new Utilizador();
-    }
+
     public function copy($row){
         $this->id=$row->id;
         $this->assunto=$row->assunto;

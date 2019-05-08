@@ -21,10 +21,6 @@ class Produtos_Reservados {
     public $produto_id;
     public $reserva_id;
 
-    public function _construct(){
-        $this->reserva_id=new Reserva();
-        $this->produto_id=new Produto();
-    }
     public function copy($row){
         $this->preço=$row->preço;
         $this->medidas=$row->medidas;
@@ -35,7 +31,7 @@ class Produtos_Reservados {
 
     public function create(){
         $res=false;
-        $res=Produtos_ReservadosDAL::create($this); //Tem de passar como parametro o proprio objeto
+        $res=Produtos_ReservadosDAL::create($this);
         return($res);
     }
 
@@ -50,15 +46,6 @@ class Produtos_Reservados {
     public function retrieveByID(){
         return (Produtos_ReservadosDAL::retrieveByID($this));
     }
-
-    public static function retrieveByName(){
-        return (Produtos_ReservadosDAL::retrieveByName());
-    }
-
-    public static function retrieveIdName(){
-        return (Produtos_ReservadosDAL::retrieveIdName());
-    }
-
 
     public function update(){
         return (Produtos_ReservadosDAL::update($this));

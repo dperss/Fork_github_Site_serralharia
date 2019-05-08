@@ -7,20 +7,20 @@ require_once dirname(__FILE__)."/DB.php";
  */
 
 /**
- * Description of pedido
+ * Description of mensagem
  *
  * @author Diogo Ramos
  */
 class MensagemDAL {
 
     public static function create($e){
-        $datapedido = date("Y-m-d H:i:s"); //devolve a data atual do sistema, no formato ano-mes-dia horas:minutos:segundos, exemplo: 2017-05-25 22:57:00
+        $data = date("Y-m-d H:i:s"); 
 
         $db=DB::getDB();
-        $query="INSERT INTO pedido (descricao, datapedido, utilizador_id) "."VALUES (:descricao, :datapedido, :utilizador_id)";
+        $query="INSERT INTO mensagem (assunto, data, utilizador_id) "."VALUES (:assunto,:data,:utilizador_id)";
         $parms=[
             'descricao' => $e->descricao,
-            'datapedido' => $datapedido,
+            'data' => $data,
             'utilizador_id' => $e->utilizador_id
         ];
         $res=$db->query($query,$parms);
@@ -32,7 +32,7 @@ class MensagemDAL {
 
     public static function delete($e){
         $db=DB::getDB();
-        $query="DELETE FROM pedido WHERE id = :id";
+        $query="DELETE FROM mensagem WHERE id = :id";
         $parms=[
             'id' => $e->id
         ];
@@ -43,23 +43,23 @@ class MensagemDAL {
 
     public static function retrieveAll(){
         $db=DB::getDB();
-        $query="SELECT * FROM pedido";
+        $query="SELECT * FROM mensagem";
 
         $res=$db->query($query);
-        $res->setFetchMode(PDO::FETCH_ASSOC); //Para podermos usar a notacao de objeto em vez de array
+        $res->setFetchMode(PDO::FETCH_ASSOC);
         return($res);
     }
 
     public static function retrieveByData($e){// acabar
         $db=DB::getDB();
-        $query="SELECT * FROM Mensagem WHERE data=:data ";
+        $query="SELECT * FROM mensagem WHERE data=:data ";
         $parms=[
             'data' => $e->data
         ];
         $res=$db->query($query,$parms);
-        $res->setFetchMode(PDO::FETCH_CLASS,"Mensagem"); //Para podermos usar a notacao de objeto em vez de array
-        $row=$res->fetch(); //Como o name é unico so pode dar 1 valor ou 0 logo podemos fazer o fetch de um so valor em vez de um while
-        if($row){   //Com isto inserimos os atributos da BD na instancia criada no index que entra neste metodo
+        $res->setFetchMode(PDO::FETCH_CLASS,"Mensagem");
+        $row=$res->fetch();
+        if($row){
             $e->copy($row);
         }
         return($row);
@@ -67,14 +67,14 @@ class MensagemDAL {
 
     public static function retrieveByID($e){
         $db=DB::getDB();
-        $query="SELECT * FROM Mensagem WHERE id=:id";
+        $query="SELECT * FROM mensagem WHERE id=:id";
         $parms=[
             'id' => $e->id
         ];
         $res=$db->query($query,$parms);
-        $res->setFetchMode(PDO::FETCH_CLASS,"mensagem"); //Para podermos usar a notacao de objeto em vez de array
-        $row=$res->fetch(); //Como o name é unico so pode dar 1 valor ou 0 logo podemos fazer o fetch de um so valor em vez de um while
-        if($row){   //Com isto inserimos os atributos da BD na instancia criada no index que entra neste metodo
+        $res->setFetchMode(PDO::FETCH_CLASS,"mensagem");
+        $row=$res->fetch();
+        if($row){
             $e->copy($row);
         }
         return($row);
@@ -83,7 +83,7 @@ class MensagemDAL {
 
     public static function update($e){
         $db=DB::getDB();
-        $datapedido = date("Y-m-d H:i:s");
+        $data = date("Y-m-d H:i:s");
         $query="UPDATE mensagem set data=:data, assunto=:assunto WHERE id=:id";
         $params=[
             ':data' => $data,

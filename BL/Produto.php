@@ -1,5 +1,6 @@
 <?php
 require_once dirname(__FILE__).'/../DAL/ProdutoDAL.php';
+require_once dirname(__FILE__).'/../DAL/CategoriaDAL.php';
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -18,9 +19,6 @@ class Produto {
     public $Categoria_id;
 
 
-    public function _construct(){
-        $this->Categoria_id=new Categoria();
-    }
     public function copy($row){
         $this->id=$row->id;
         $this->nome=$row->nome;
@@ -29,7 +27,7 @@ class Produto {
 
     public function create(){
         $res=false;
-        $res=ProdutoDAL::create($this); //Tem de passar como parametro o proprio objeto
+        $res=ProdutoDAL::create($this);
         return($res);
     }
 
