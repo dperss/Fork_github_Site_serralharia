@@ -15,17 +15,15 @@ class Produtos_ReservadosDAL {
 
     public static function create($e){
         $db=DB::getDB();
-        $query="INSERT INTO Produtos_Reservados (preço, medidas, produto_id, reserva_id) "."VALUES (:preço ,:medidas, :produto_id, :reserva_id)";
+        $query="INSERT INTO Produtos_Reservados (preço, medidas, quantidade, produto_id, reserva_id) "."VALUES (:preço ,:medidas, :quantidade, :produto_id, :reserva_id)";
         $parms=[
             'preço' => $e->preço,
             'medidas' => $e->medidas,
+            'quantidade' => $e->quantidade,
             'produto_id' => $e->produto_id,
             'reserva_id' => $e->reserva_id,
         ];
         $res=$db->query($query,$parms);
-        if($res){
-            $e->id=$db->lastInsertId();
-        }
         return($res);
     }
 
@@ -45,7 +43,8 @@ class Produtos_ReservadosDAL {
         $query="SELECT * FROM Produtos_Reservados";
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
-        return($res);
+        $res->closeCursor();
+        return($row);
     }
 
     public static function findByID($e){
@@ -61,6 +60,7 @@ class Produtos_ReservadosDAL {
         if($row){
             $e->copy($row);
         }
+        $res->closeCursor();
         return($row);
     }
 

@@ -18,6 +18,7 @@ class Mensagem {
     public $assunto;
     public $utilizador_id;
     public $data;
+    public $mensagem;
 
 
     public function copy($row){
@@ -25,6 +26,7 @@ class Mensagem {
         $this->assunto=$row->assunto;
         $this->utilizador_id=$row->utilizador_id;
         $this->data=$row->data;
+        $this->mensagem=$row->mensagem;
     }
 
     public function create(){

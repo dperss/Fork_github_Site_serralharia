@@ -46,7 +46,8 @@ class ReservaDAL {
 
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
-        return($res);
+        $res->closeCursor();
+        return($row);
     }
 
     public static function findByID($e){
@@ -61,6 +62,7 @@ class ReservaDAL {
         if($row){
             $e->copy($row);
         }
+        $res->closeCursor();
         return($row);
     }
 

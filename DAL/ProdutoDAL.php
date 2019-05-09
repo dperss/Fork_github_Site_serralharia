@@ -45,7 +45,8 @@ class ProdutoDAL {
         $query="SELECT * FROM Produto";
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
-        return $res;
+        $res->closeCursor();
+        return($row);
     }
 
     public static function findByName($e){
@@ -60,6 +61,7 @@ class ProdutoDAL {
         if($row){   
             $e->copy($row);
         }
+        $res->closeCursor();
         return($row);
     }
 
@@ -69,6 +71,7 @@ class ProdutoDAL {
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_CLASS,"Produto");
         $row=$res->fetch();
+        $res->closeCursor();
         return($row);
     }
 

@@ -7,7 +7,7 @@ require_once dirname(__FILE__)."/DB.php";/*
  */
 
 /**
- * Description of CCategoria
+ * Description of Categoria
  *
  * @author Diogo Ramos
  */
@@ -56,6 +56,7 @@ class CategoriaDAL {
         if($row){
             $e->copy($row);
         }
+        $res->closeCursor();
         return($row);
     }
 
@@ -65,6 +66,7 @@ class CategoriaDAL {
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_CLASS,"Categoria");
         $row=$res->fetch();
+        $res->closeCursor();
         return($row);
     }
 

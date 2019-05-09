@@ -48,7 +48,8 @@ class UtilizadorDAL {
         
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
-        return($res);
+        $res->closeCursor();
+        return($row);
     }
     
     public static function findByEmail($e){
@@ -63,6 +64,7 @@ class UtilizadorDAL {
         if($row){
             $e->copy($row);
         }
+        $res->closeCursor();
         return($row);
     }
     
@@ -79,6 +81,7 @@ class UtilizadorDAL {
         if($row){
             $e->copy($row);
         }
+        $res->closeCursor();
         return($row);
     }
     
@@ -95,6 +98,7 @@ class UtilizadorDAL {
         if($row){
             $e->copy($row);
         }
+        $res->closeCursor();
         return($row);
     }
     
@@ -110,7 +114,8 @@ class UtilizadorDAL {
         $query="SELECT id, login FROM Utilizador ORDER BY id";
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
-        return $res;
+        $res->closeCursor();
+        return($row);
     }
     
     public static function update($e){

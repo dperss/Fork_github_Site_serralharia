@@ -17,11 +17,12 @@ class MensagemDAL {
         $data = date("Y-m-d H:i:s"); 
 
         $db=DB::getDB();
-        $query="INSERT INTO Mensagem (assunto, data, utilizador_id) "."VALUES (:assunto,:data,:utilizador_id)";
+        $query="INSERT INTO Mensagem (assunto, data, utilizador_id, mensagem) "."VALUES (:assunto,:data,:utilizador_id, mensagem)";
         $parms=[
-            'descricao' => $e->descricao,
+            'assunto' => $e->assunto,
             'data' => $data,
-            'utilizador_id' => $e->utilizador_id
+            'utilizador_id' => $e->utilizador_id,
+            'mensagem' => $e->mensagem
         ];
         $res=$db->query($query,$parms);
         if($res){
@@ -41,7 +42,7 @@ class MensagemDAL {
         return($res);
     }
 
-    public static function retrieveAll(){
+    public static function findAll(){
         $db=DB::getDB();
         $query="SELECT * FROM Mensagem";
 
@@ -50,7 +51,7 @@ class MensagemDAL {
         return($res);
     }
 
-    public static function retrieveByData($e){// acabar
+    public static function findByData($e){// acabar
         $db=DB::getDB();
         $query="SELECT * FROM Mensagem WHERE data=:data ";
         $parms=[
@@ -62,6 +63,7 @@ class MensagemDAL {
         if($row){
             $e->copy($row);
         }
+        $res->closeCursor();
         return($row);
     }
 
@@ -77,6 +79,7 @@ class MensagemDAL {
         if($row){
             $e->copy($row);
         }
+        $res->closeCursor();
         return($row);
     }
 
