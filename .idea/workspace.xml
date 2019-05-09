@@ -7,9 +7,9 @@
       <change beforePath="$PROJECT_DIR$/BL/Mensagem.php" beforeDir="false" afterPath="$PROJECT_DIR$/BL/Mensagem.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BL/Produto.php" beforeDir="false" afterPath="$PROJECT_DIR$/BL/Produto.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BL/Produtos_Reservados.php" beforeDir="false" afterPath="$PROJECT_DIR$/BL/Produtos_Reservados.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BL/Reserva.php" beforeDir="false" afterPath="$PROJECT_DIR$/BL/Reserva.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BL/Utilizador.php" beforeDir="false" afterPath="$PROJECT_DIR$/BL/Utilizador.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL/CategoriaDAL.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/CategoriaDAL.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/DB.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL/MensagemDAL.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/MensagemDAL.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL/ProdutoDAL.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/ProdutoDAL.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL/Produtos_reservadosDAL.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Produtos_reservadosDAL.php" afterDir="false" />
@@ -37,26 +37,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BL/Utilizador.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DAL/UtilizadorDAL.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="133" column="15" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,11 +48,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>but</find>
-      <find>es</find>
-      <find>cancelbtn</find>
-      <find>password</find>
-      <find>type=&quot;password&quot;</find>
       <find>60px</find>
       <find>hover</find>
       <find>pie</find>
@@ -97,10 +73,14 @@
       <find>funcionario_id</find>
       <find>data</find>
       <find>proposta</find>
+      <find>retrieve</find>
+      <find>categoria</find>
+      <find>mensagem</find>
+      <find>produto</find>
+      <find>produtos_Reservados</find>
     </findStrings>
     <replaceStrings>
       <replace>email</replace>
-      <replace>Produto</replace>
       <replace>MensagemDAL</replace>
       <replace>ReservaDAL</replace>
       <replace>categoria</replace>
@@ -114,6 +94,11 @@
       <replace>produto_id</replace>
       <replace>reserva_id</replace>
       <replace>produtos_Reservados</replace>
+      <replace>find</replace>
+      <replace>Categoria</replace>
+      <replace>Mensagem</replace>
+      <replace>Produto</replace>
+      <replace>Produtos_Reservados</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -145,25 +130,26 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/BL/Artigo.php" />
         <option value="$PROJECT_DIR$/DAL/ArtigoDAL.php" />
-        <option value="$PROJECT_DIR$/DAL/DB.php" />
-        <option value="$PROJECT_DIR$/BL/Categoria.php" />
-        <option value="$PROJECT_DIR$/DAL/CategoriaDAL.php" />
-        <option value="$PROJECT_DIR$/BL/Mensagem.php" />
-        <option value="$PROJECT_DIR$/DAL/MensagemDAL.php" />
-        <option value="$PROJECT_DIR$/DAL/ProdutoDAL.php" />
-        <option value="$PROJECT_DIR$/BL/Produto.php" />
-        <option value="$PROJECT_DIR$/BL/Produtos_Reservados.php" />
-        <option value="$PROJECT_DIR$/DAL/Produtos_reservadosDAL.php" />
         <option value="$PROJECT_DIR$/BL/Reserva.php" />
+        <option value="$PROJECT_DIR$/DAL/UtilizadorDAL.php" />
         <option value="$PROJECT_DIR$/DAL/ReservaDAL.php" />
         <option value="$PROJECT_DIR$/BL/Utilizador.php" />
-        <option value="$PROJECT_DIR$/DAL/UtilizadorDAL.php" />
+        <option value="$PROJECT_DIR$/BL/Produto.php" />
+        <option value="$PROJECT_DIR$/DAL/DB.php" />
+        <option value="$PROJECT_DIR$/BL/Mensagem.php" />
+        <option value="$PROJECT_DIR$/DAL/CategoriaDAL.php" />
+        <option value="$PROJECT_DIR$/DAL/MensagemDAL.php" />
+        <option value="$PROJECT_DIR$/DAL/ProdutoDAL.php" />
+        <option value="$PROJECT_DIR$/DAL/Produtos_reservadosDAL.php" />
+        <option value="$PROJECT_DIR$/BL/Categoria.php" />
+        <option value="$PROJECT_DIR$/BL/Produtos_Reservados.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php_installation_&lt;version&gt;" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="263" />
+    <option name="y" value="307" />
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
@@ -268,7 +254,8 @@
       <workItem from="1557235691621" duration="963000" />
       <workItem from="1557265497979" duration="2719000" />
       <workItem from="1557321139328" duration="7720000" />
-      <workItem from="1557346166910" duration="4614000" />
+      <workItem from="1557346166910" duration="4749000" />
+      <workItem from="1557386090414" duration="854000" />
     </task>
     <task id="LOCAL-00001" summary="Produtos">
       <created>1554366509882</created>
@@ -305,19 +292,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556789787563</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Versão Beta.&#10;BL e DAL acabados&#10;presisa de verificaçãio final">
+      <created>1557351469813</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557351469813</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134852000" />
+    <option name="totallyTimeSpent" value="135841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.3214826" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.21558245" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -411,7 +404,8 @@
     <MESSAGE value="Intrudução do DAL e Bl ainda incopletos" />
     <MESSAGE value="Pre-acabado penultimo TP" />
     <MESSAGE value="Criado contruct nos bl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado contruct nos bl" />
+    <MESSAGE value="Versão Beta.&#10;BL e DAL acabados&#10;presisa de verificaçãio final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versão Beta.&#10;BL e DAL acabados&#10;presisa de verificaçãio final" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.htlm" />
@@ -448,102 +442,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DAL/CategoriaDAL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BL/Categoria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BL/Produtos_Reservados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BL/Produto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAL/ProdutoDAL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BL/Mensagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/gestaodereservas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DAL/ReservaDAL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DAL/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="357">
+          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
           <folding>
             <element signature="e#7#191#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DAL/Produtos_reservadosDAL.php">
+    <entry file="file://$PROJECT_DIR$/DAL/CategoriaDAL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAL/MensagemDAL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="99" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BL/Reserva.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAL/ReservaDAL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="87" column="38" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BL/Utilizador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        <state relative-caret-position="1353">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DAL/UtilizadorDAL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="133" column="15" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
+        <state relative-caret-position="1258">
+          <caret line="131" column="38" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAL/MensagemDAL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1319">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAL/ProdutoDAL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="99" column="58" selection-start-line="99" selection-start-column="58" selection-end-line="99" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAL/Produtos_reservadosDAL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BL/Mensagem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BL/Categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BL/Produto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BL/Utilizador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BL/Produtos_Reservados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BL/Reserva.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>

@@ -47,28 +47,28 @@ class Utilizador {
         return (UtilizadorDAL::delete($this));
     }
     
-    public static function retrieveAll(){
-        return (UtilizadorDAL::retrieveAll());
+    public static function findAll(){
+        return (UtilizadorDAL::findAll());
     }
     
-    public function retrieveByEmail(){
-        return (UtilizadorDAL::retrieveByemail($this));
+    public function findByEmail(){
+        return (UtilizadorDAL::findByemail($this));
     }
     
-    public function retrieveByemailPassword(){
-        return(UtilizadorDAL::retrieveByemailPassword($this));
+    public function findByemailPassword(){
+        return(UtilizadorDAL::findByemailPassword($this));
     }
     
-    public function retrieveById(){
-        return(UtilizadorDAL::retrieveById($this));
+    public function findById(){
+        return(UtilizadorDAL::findById($this));
     }
     
     public function nUtilizadores(){
         return(UtilizadorDAL::nUtilizadores($this));
     }
     
-    public static function retrieveIdName(){
-        return (UtilizadorDAL::retrieveIdName());
+    public static function findIdName(){
+        return (UtilizadorDAL::findIdName());
     }
     
     public function update(){

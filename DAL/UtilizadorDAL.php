@@ -42,7 +42,7 @@ class UtilizadorDAL {
         return($res);
     }
     
-    public static function retrieveAll(){
+    public static function findAll(){
         $db=DB::getDB();
         $query="SELECT * FROM Utilizador";
         
@@ -51,7 +51,7 @@ class UtilizadorDAL {
         return($res);
     }
     
-    public static function retrieveByEmail($e){
+    public static function findByEmail($e){
         $db=DB::getDB();
         $query="SELECT * FROM Utilizador WHERE email=:email";
         $parms=[
@@ -66,7 +66,7 @@ class UtilizadorDAL {
         return($row);
     }
     
-    public static function retrieveByLoginPassword($e){
+    public static function findByLoginPassword($e){
         $db=DB::getDB();
         $query="SELECT * FROM Utilizador WHERE email=:email and password=:password";
         $params=[
@@ -82,7 +82,7 @@ class UtilizadorDAL {
         return($row);
     }
     
-    public static function retrieveById($e){
+    public static function findById($e){
         $db=DB::getDB();
         $query="SELECT id FROM Utilizador WHERE email=:email and password=:password";
         $params=[
@@ -105,7 +105,7 @@ class UtilizadorDAL {
         return$res;
     }
     
-    public static function retrieveIdName(){
+    public static function findIdName(){
         $db=DB::getDB();
         $query="SELECT id, login FROM Utilizador ORDER BY id";
         $res=$db->query($query);
@@ -129,7 +129,7 @@ class UtilizadorDAL {
     public static function validate($e, $create){
         $db=DB::getDB();
         if($create)
-            if(UtilizadorDAL::retrieveByName($e))
+            if(UtilizadorDAL::findByName($e))
                 return ($e->id=-1);
         return 0;
     }

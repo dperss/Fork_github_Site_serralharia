@@ -7,7 +7,7 @@ require_once dirname(__FILE__)."/DB.php";
  */
 
 /**
- * Description of mensagem
+ * Description of Mensagem
  *
  * @author Diogo Ramos
  */
@@ -17,7 +17,7 @@ class MensagemDAL {
         $data = date("Y-m-d H:i:s"); 
 
         $db=DB::getDB();
-        $query="INSERT INTO mensagem (assunto, data, utilizador_id) "."VALUES (:assunto,:data,:utilizador_id)";
+        $query="INSERT INTO Mensagem (assunto, data, utilizador_id) "."VALUES (:assunto,:data,:utilizador_id)";
         $parms=[
             'descricao' => $e->descricao,
             'data' => $data,
@@ -32,7 +32,7 @@ class MensagemDAL {
 
     public static function delete($e){
         $db=DB::getDB();
-        $query="DELETE FROM mensagem WHERE id = :id";
+        $query="DELETE FROM Mensagem WHERE id = :id";
         $parms=[
             'id' => $e->id
         ];
@@ -43,7 +43,7 @@ class MensagemDAL {
 
     public static function retrieveAll(){
         $db=DB::getDB();
-        $query="SELECT * FROM mensagem";
+        $query="SELECT * FROM Mensagem";
 
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
@@ -52,7 +52,7 @@ class MensagemDAL {
 
     public static function retrieveByData($e){// acabar
         $db=DB::getDB();
-        $query="SELECT * FROM mensagem WHERE data=:data ";
+        $query="SELECT * FROM Mensagem WHERE data=:data ";
         $parms=[
             'data' => $e->data
         ];
@@ -65,14 +65,14 @@ class MensagemDAL {
         return($row);
     }
 
-    public static function retrieveByID($e){
+    public static function findByID($e){
         $db=DB::getDB();
-        $query="SELECT * FROM mensagem WHERE id=:id";
+        $query="SELECT * FROM Mensagem WHERE id=:id";
         $parms=[
             'id' => $e->id
         ];
         $res=$db->query($query,$parms);
-        $res->setFetchMode(PDO::FETCH_CLASS,"mensagem");
+        $res->setFetchMode(PDO::FETCH_CLASS,"Mensagem");
         $row=$res->fetch();
         if($row){
             $e->copy($row);
@@ -84,7 +84,7 @@ class MensagemDAL {
     public static function update($e){
         $db=DB::getDB();
         $data = date("Y-m-d H:i:s");
-        $query="UPDATE mensagem set data=:data, assunto=:assunto WHERE id=:id";
+        $query="UPDATE Mensagem set data=:data, assunto=:assunto WHERE id=:id";
         $params=[
             ':data' => $data,
             ':assunto' => $e->assunto,

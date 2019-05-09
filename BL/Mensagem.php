@@ -29,7 +29,7 @@ class Mensagem {
 
     public function create(){
         $res=false;
-        $res=MensagemDAL::create($this); //Tem de passar como parametro o proprio objeto
+        $res=MensagemDAL::create($this);
         return($res);
     }
 
@@ -37,16 +37,16 @@ class Mensagem {
         return (MensagemDAL::delete($this));
     }
 
-    public static function retrieveAll(){
-        return (MensagemDAL::retrieveAll());
+    public static function findAll(){
+        return (MensagemDAL::findAll());
     }
 
-    public function retrieveByData(){
-        return (MensagemDAL::retrieveByData($this));
+    public function findByData(){
+        return (MensagemDAL::findByData($this));
     }
 
-    public static function retrieveById($id){
-        return (MensagemDAL::retrieveById($id));
+    public static function findById($id){
+        return (MensagemDAL::findById($id));
     }
 
     public function update(){

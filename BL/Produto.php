@@ -35,16 +35,16 @@ class Produto {
         return (ProdutoDAL::delete($this));
     }
 
-    public static function retrieveAll(){
-        return (ProdutoDAL::retrieveAll());
+    public static function findAll(){
+        return (ProdutoDAL::findAll());
     }
 
-    public function retrieveByName(){
-        return (ProdutoDAL::retrieveByName($this));
+    public function findByName(){
+        return (ProdutoDAL::findByName($this));
     }
 
-    public static function retrieveById($id){
-        return (ProdutoDAL::retrieveById($id));
+    public static function findById($id){
+        return (ProdutoDAL::findById($id));
     }
 
     public function update(){

@@ -7,15 +7,14 @@ require_once dirname(__FILE__)."/DB.php";/*
  */
 
 /**
- * Description of Ccategoria
+ * Description of CCategoria
  *
  * @author Diogo Ramos
  */
 class CategoriaDAL {
     public static function create($e){
         $db=DB::getDB();
-        $query="INSERT INTO categoria (nome) "
-            . "VALUES (:nome)";
+        $query="INSERT INTO Categoria (nome) " . "VALUES (:nome)";
         $parms=[
             'nome' => $e->nome,
         ];
@@ -28,7 +27,7 @@ class CategoriaDAL {
 
     public static function delete($e){
         $db=DB::getDB();
-        $query="DELETE FROM categoria WHERE id =:id";
+        $query="DELETE FROM Categoria WHERE id =:id";
         $parms=[
             'id' => $e->id
         ];
@@ -37,22 +36,22 @@ class CategoriaDAL {
         return($res);
     }
 
-    public static function retrieveAll(){
+    public static function findAll(){
         $db=DB::getDB();
-        $query="SELECT * FROM categoria";
+        $query="SELECT * FROM Categoria";
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
         return $res;
     }
 
-    public static function retrieveByName($e){
+    public static function findByName($e){
         $db=DB::getDB();
-        $query="SELECT * FROM categoria WHERE nome=:nome";
+        $query="SELECT * FROM Categoria WHERE nome=:nome";
         $parms=[
             'nome' => $e->nome
         ];
         $res=$db->query($query,$parms);
-        $res->setFetchMode(PDO::FETCH_CLASS,"categoria");
+        $res->setFetchMode(PDO::FETCH_CLASS,"Categoria");
         $row=$res->fetch();
         if($row){
             $e->copy($row);
@@ -60,18 +59,18 @@ class CategoriaDAL {
         return($row);
     }
 
-    public static function retrieveById($e){
+    public static function findById($e){
         $db=DB::getDB();
-        $query="SELECT * FROM categoria WHERE id=".$e;
+        $query="SELECT * FROM Categoria WHERE id=".$e;
         $res=$db->query($query);
-        $res->setFetchMode(PDO::FETCH_CLASS,"categoria");
+        $res->setFetchMode(PDO::FETCH_CLASS,"Categoria");
         $row=$res->fetch();
         return($row);
     }
 
     public static function update($e){
         $db=DB::getDB();
-        $query="UPDATE categoria set nome=:nome WHERE id=:id";
+        $query="UPDATE Categoria set nome=:nome WHERE id=:id";
         $params=[
             ':nome' => $e->nome,
             ':id' => $e->id
@@ -84,7 +83,7 @@ class CategoriaDAL {
     public static function validate($e, $create){
         $db=DB::getDB();
         if($create)
-            if(categoriaDAL::retrieveByName($e))
+            if(CategoriaDAL::findByName($e))
                 return ($e->id=-1);
         return 0;
     }

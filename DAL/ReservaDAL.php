@@ -40,7 +40,7 @@ class ReservaDAL {
         return($res);
     }
 
-    public static function retrieveAll(){
+    public static function findAll(){
         $db=DB::getDB();
         $query="SELECT * FROM reserva";
 
@@ -49,7 +49,7 @@ class ReservaDAL {
         return($res);
     }
 
-    public static function retrieveByID($e){
+    public static function findByID($e){
         $db=DB::getDB();
         $query="SELECT * FROM reserva WHERE id=:id";
         $parms=[

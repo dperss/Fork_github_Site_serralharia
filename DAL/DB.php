@@ -19,7 +19,7 @@ class DB {
 
     private function __construct(){
         try{
-            $this->conn=new PDO("mysql:host=localhost;dbname=serr;charset=UTF8","adm_1","adm_1");
+            $this->conn=new PDO("mysql:host=localhost;dbname=serr;charset=UTF8","adm","");
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
         }catch (PDOException $e){
             echo $e->getMessage();

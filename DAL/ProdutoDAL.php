@@ -16,7 +16,7 @@ class ProdutoDAL {
 
     public static function create($e){
         $db=DB::getDB();
-        $query="INSERT INTO produto (nome,Categoria_id) "
+        $query="INSERT INTO Produto (nome,Categoria_id) "
             . "VALUES (:nome, Categoria_id)";
         $parms=[
             'nome' => $e->nome,
@@ -31,7 +31,7 @@ class ProdutoDAL {
 
     public static function delete($e){
         $db=DB::getDB();
-        $query="DELETE FROM produto WHERE id =:id";
+        $query="DELETE FROM Produto WHERE id =:id";
         $parms=[
             'id' => $e->id
         ];
@@ -40,22 +40,22 @@ class ProdutoDAL {
         return($res);
     }
 
-    public static function retrieveAll(){
+    public static function findAll(){
         $db=DB::getDB();
-        $query="SELECT * FROM produto";
+        $query="SELECT * FROM Produto";
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
         return $res;
     }
 
-    public static function retrieveByName($e){
+    public static function findByName($e){
         $db=DB::getDB();
-        $query="SELECT * FROM produto WHERE nome=:nome";
+        $query="SELECT * FROM Produto WHERE nome=:nome";
         $parms=[
             'nome' => $e->nome
         ];
         $res=$db->query($query,$parms);
-        $res->setFetchMode(PDO::FETCH_CLASS,"produto");
+        $res->setFetchMode(PDO::FETCH_CLASS,"Produto");
         $row=$res->fetch();
         if($row){   
             $e->copy($row);
@@ -63,18 +63,18 @@ class ProdutoDAL {
         return($row);
     }
 
-    public static function retrieveById($e){
+    public static function findById($e){
         $db=DB::getDB();
-        $query="SELECT * FROM produto WHERE id=".$e;
+        $query="SELECT * FROM Produto WHERE id=".$e;
         $res=$db->query($query);
-        $res->setFetchMode(PDO::FETCH_CLASS,"produto");
+        $res->setFetchMode(PDO::FETCH_CLASS,"Produto");
         $row=$res->fetch();
         return($row);
     }
 
     public static function update($e){
         $db=DB::getDB();
-        $query="UPDATE produto set nome=:nome, Categoria_id=:Categoria_id WHERE id=:id";
+        $query="UPDATE Produto set nome=:nome, Categoria_id=:Categoria_id WHERE id=:id";
         $params=[
             ':nome' => $e->nome,
             ':Categoria_id' => $e->Categoria_id,
@@ -88,16 +88,16 @@ class ProdutoDAL {
     public static function validate($e, $create){
         $db=DB::getDB();
         if($create)
-            if(produtoDAL::retrieveByName($e))
+            if(ProdutoDAL::findByName($e))
                 return ($e->id=-1);
-        if($e->preco<0 || $e->quant_produto<0)
+        if($e->preco<0 || $e->quant_Produto<0)
             return ($e->id=-2);
         return 0;
     }
 
     public static function pesquisa($palavra){
         $db=DB::getDB();
-        $query="SELECT id, nome, Categoria_id FROM produto WHERE nome LIKE '%".$palavra."%' ORDER BY id";
+        $query="SELECT id, nome, Categoria_id FROM Produto WHERE nome LIKE '%".$palavra."%' ORDER BY id";
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
         return $res;

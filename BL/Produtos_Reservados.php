@@ -14,7 +14,7 @@ require_once dirname(__FILE__).'/../DAL/ReservaDAL.php';
  * @author Diogo Ramos
  */
 class Produtos_Reservados {
-    //put your code here
+
     public $preço;
     public $medidas;
     public $quantidade;
@@ -39,12 +39,12 @@ class Produtos_Reservados {
         return (Produtos_ReservadosDAL::delete($this));
     }
 
-    public static function retrieveAll(){
-        return (Produtos_ReservadosDAL::retrieveAll());
+    public static function findAll(){
+        return (Produtos_ReservadosDAL::findAll());
     }
 
-    public function retrieveByID(){
-        return (Produtos_ReservadosDAL::retrieveByID($this));
+    public function findByID(){
+        return (Produtos_ReservadosDAL::findByID($this));
     }
 
     public function update(){
