@@ -43,8 +43,7 @@ class Produtos_ReservadosDAL {
         $query="SELECT * FROM Produtos_Reservados";
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
-        $res->closeCursor();
-        return($row);
+        return $res;
     }
 
     public static function findByID($e){
@@ -56,6 +55,22 @@ class Produtos_ReservadosDAL {
         ];
         $res=$db->query($query,$parms);
         $res->setFetchMode(PDO::FETCH_CLASS,"Produtos_Reservados");
+        $row=$res->fetch();
+        if($row){
+            $e->copy($row);
+        }
+        $res->closeCursor();
+        return($row);
+    }
+
+    public static function findByQuantidade($e){
+        $db=DB::getDB();
+        $query="SELECT * FROM Mensagem WHERE quantidade=:quantidade ";
+        $parms=[
+            'quantidade' => $e->quantidade
+        ];
+        $res=$db->query($query,$parms);
+        $res->setFetchMode(PDO::FETCH_CLASS,"Mensagem");
         $row=$res->fetch();
         if($row){
             $e->copy($row);

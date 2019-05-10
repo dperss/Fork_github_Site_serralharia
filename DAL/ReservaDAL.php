@@ -46,8 +46,7 @@ class ReservaDAL {
 
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
-        $res->closeCursor();
-        return($row);
+        return $res;
     }
 
     public static function findByID($e){
@@ -66,14 +65,29 @@ class ReservaDAL {
         return($row);
     }
 
+    public static function findByData($e){
+        $db=DB::getDB();
+        $query="SELECT * FROM reserva WHERE data=:data ";
+        $parms=[
+            'data' => $e->data
+        ];
+        $res=$db->query($query,$parms);
+        $res->setFetchMode(PDO::FETCH_CLASS,"reserva");
+        $row=$res->fetch();
+        if($row){
+            $e->copy($row);
+        }
+        $res->closeCursor();
+        return($row);
+    }
+
     public static function update($e){
         $data = date("Y-m-d H:i:s");
         $db=DB::getDB();
-        $query="UPDATE reserva set descricao=:descricao, data=:data, orcamento=:orcamento WHERE id=:id";
+        $query="UPDATE reserva set data=:data, mensagem_id=:mensagem_id WHERE id=:id";
         $params=[
             ':data' => $data,
-            ':orcamento' => $e->orcamento,
-            ':id' => $e->id
+            ':mensagem_id' => $e->mensagem_id
         ];
         $res=$db->query($query, $params);
 

@@ -51,11 +51,27 @@ class MensagemDAL {
         return($res);
     }
 
-    public static function findByData($e){// acabar
+    public static function findByData($e){
         $db=DB::getDB();
         $query="SELECT * FROM Mensagem WHERE data=:data ";
         $parms=[
             'data' => $e->data
+        ];
+        $res=$db->query($query,$parms);
+        $res->setFetchMode(PDO::FETCH_CLASS,"Mensagem");
+        $row=$res->fetch();
+        if($row){
+            $e->copy($row);
+        }
+        $res->closeCursor();
+        return($row);
+    }
+
+    public static function findByAssunto($e){
+        $db=DB::getDB();
+        $query="SELECT * FROM Mensagem WHERE assunto=:assunto ";
+        $parms=[
+            'assunto' => $e->assunto
         ];
         $res=$db->query($query,$parms);
         $res->setFetchMode(PDO::FETCH_CLASS,"Mensagem");

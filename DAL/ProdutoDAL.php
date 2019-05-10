@@ -46,7 +46,7 @@ class ProdutoDAL {
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
         $res->closeCursor();
-        return($row);
+        return $res;
     }
 
     public static function findByName($e){
@@ -93,8 +93,6 @@ class ProdutoDAL {
         if($create)
             if(ProdutoDAL::findByName($e))
                 return ($e->id=-1);
-        if($e->preco<0 || $e->quant_Produto<0)
-            return ($e->id=-2);
         return 0;
     }
 

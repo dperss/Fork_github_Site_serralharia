@@ -48,8 +48,7 @@ class UtilizadorDAL {
         
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
-        $res->closeCursor();
-        return($row);
+        return$res;
     }
     
     public static function findByEmail($e){
@@ -102,7 +101,7 @@ class UtilizadorDAL {
         return($row);
     }
     
-    public static function nUtilizadores($e){ /
+    public static function nUtilizadores($e){
         $db=DB::getDB();
         $query="SELECT count(*) FROM Utilizador";
         $res=$db->query($query);
@@ -114,8 +113,7 @@ class UtilizadorDAL {
         $query="SELECT id, login FROM Utilizador ORDER BY id";
         $res=$db->query($query);
         $res->setFetchMode(PDO::FETCH_ASSOC);
-        $res->closeCursor();
-        return($row);
+        return$res;
     }
     
     public static function update($e){
@@ -131,9 +129,9 @@ class UtilizadorDAL {
         return($res);
     }
     
-    public static function validate($e, $create){
+    public static function validate($e){
         $db=DB::getDB();
-        if($create)
+        if($e)
             if(UtilizadorDAL::findByName($e))
                 return ($e->id=-1);
         return 0;
@@ -144,6 +142,7 @@ class UtilizadorDAL {
         $sql="SELECT admin FROM utilizador WHERE id=".$_SESSION['id'];
         $res=$db->query($sql);
         $row=$res->fetchcolumn();
+        $res->closeCursor();
         return $row;
     }
 }

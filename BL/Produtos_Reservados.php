@@ -47,6 +47,10 @@ class Produtos_Reservados {
         return (Produtos_ReservadosDAL::findByID($this));
     }
 
+    public function findByQuantidade(){
+        return (Produtos_ReservadosDAL::findByQuantidade($this));
+    }
+
     public function update(){
         return (Produtos_ReservadosDAL::update($this));
     }

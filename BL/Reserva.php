@@ -35,12 +35,16 @@ class Reserva {
         return (ReservaDAL::delete($this));
     }
 
-    public static function retrieveAll(){
-        return (ReservaDAL::retrieveAll());
+    public static function findAll(){
+        return (ReservaDAL::findAll());
     }
 
-    public function retrieveByID(){
-        return (ReservaDAL::retrieveByID($this));
+    public function findByData(){
+        return (ReservaDAL::findByData($this));
+    }
+
+    public function findByID(){
+        return (ReservaDAL::findByID($this));
     }
 
     public function update(){

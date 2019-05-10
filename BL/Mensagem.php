@@ -47,6 +47,10 @@ class Mensagem {
         return (MensagemDAL::findByData($this));
     }
 
+    public function findByAssunto(){
+        return (MensagemDAL::findByAssunto($this));
+    }
+
     public static function findById($id){
         return (MensagemDAL::findById($id));
     }
