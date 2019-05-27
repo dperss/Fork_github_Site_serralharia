@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ramos: Serralharia Civil e Metalomecânica</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="stylesheet" type="text/css" media="screen" href="bitnami.css">
+    <link rel="icon" type="image/x-icon" href="../../img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../CSS/bitnami.css">
     <style>@media print {#ghostery-purple-box {display:none !important}}</style><style type="text/css">.fancybox-margin{margin-right:17px;}</style>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -16,14 +16,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 
+
 </head>
-<body>
+<body class="">
 <div class="container conta">
     <div class="headerBar">
         <div class="row">
 
             <div class="headerLeft">
-                <a href="index.html" title="Ramos"><img src="img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
+                <a href="../index.php" title="Ramos"><img src="../../img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
 
             <div class="headerRight">
 
@@ -36,7 +37,7 @@
                             <form class="modal-content animate" action="/action_page.php">
                                 <div class="imgcontainer">
                                     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                                    <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+                                    <img src="../../img/img_avatar2.png" alt="Avatar" class="avatar">
                                 </div>
 
                                 <div class="container5">
@@ -96,15 +97,15 @@
                                     <ul class="nav navbar-nav">
 
                                         <li class="">
-                                            <a href="index.html">Início</a>                                </li>
+                                            <a href="../index.php">Início</a>                                </li>
                                         <li class="">
-                                            <a href="empresa.html">Empresa</a>                                </li>
+                                            <a href="../main/empresa.php">Empresa</a>                                </li>
                                         <li class="">
-                                            <a href="Grades.html">Produtos</a>                                </li>
+                                            <a href="../produtos/Grades.php">Produtos</a>                                </li>
                                         <li class="">
-                                            <a href="serviços.html">Serviços</a>                                </li>
+                                            <a href="../main/serviços.php">Serviços</a>                                </li>
                                         <li class="">
-                                            <a href="contactos.html">Contactos</a>                                </li>
+                                            <a href="../main/contactos.php">Contactos</a>                                </li>
                                     </ul>
 
                                 </div>
@@ -119,38 +120,30 @@
     </div>
 </div>
 
-<div class="dconta">
-<div class="column">
-<h2> Definições da conta</h2>
 
-    <div class="btn-group">
-        <a href="Atualizar.html">
-        <button class="button">Atualizar Email</button>
-        <a href="Mudarsenha.html">
-        <button class="button">Mudar Senha</button>
-        <a href="Apagarconta.html">
-        <button class="button">Apagar Conta</button>
-    </div>
 
+<div class="rconta">
+<h3>Atualizar</h3>
+
+<div>
+
+    <label for="fname">Escreva o seu novo email</label>
+    <input type="text" id="fname" name="firstname" placeholder="Email...">
+    <input type="submit" value="Submeter">
 </div>
-<div class="column">
-    <img id="perfil" src="img/img_avatar2.png" width="200" height="200"><br><br>
-    <input type="text" placeholder="carregar Foto">
-    <button type="submit"><i class="fa fa-search">Pesquisar</i></button>
+<div>
 
-</div>
+    <label for="fname">Escreva a sua Senha</label>
+    <input type="text" id="fname" name="firstname" placeholder="Nova Senha">
+    <input type="submit" value="Submeter">
 </div>
 
-
-
-
-
-
+</div>
 <div class="pie">
     <div class="container">
         © 2019 Serralharia RAMOS,Lda.
         <div class="menuPie">
-            <a href="contactos.html" class="">Contacto</a>
+            <a href="../main/contactos.php" class="">Contacto</a>
             <a >Design by: Group 23</a>
         </div>
     </div>
@@ -158,4 +151,3 @@
 </div>
 
 </body></html>
-

@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ramos: Serralharia Civil e Metalomecânica</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="stylesheet" type="text/css" media="screen" href="bitnami.css">
+    <link rel="icon" type="image/x-icon" href="../../img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../CSS/bitnami.css">
     <style>@media print {#ghostery-purple-box {display:none !important}}</style><style type="text/css">.fancybox-margin{margin-right:17px;}</style>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
 
 
 </head>
@@ -24,7 +23,7 @@
         <div class="row">
 
             <div class="headerLeft">
-                <a href="index.html" title="Ramos"><img src="img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
+                <a href="../index.php" title="Ramos"><img src="../../img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
 
             <div class="headerRight">
 
@@ -37,7 +36,7 @@
                             <form class="modal-content animate" action="/action_page.php">
                                 <div class="imgcontainer">
                                     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                                    <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+                                    <img src="../../img/img_avatar2.png" alt="Avatar" class="avatar">
                                 </div>
 
                                 <div class="container5">
@@ -97,15 +96,15 @@
                                     <ul class="nav navbar-nav">
 
                                         <li class="">
-                                            <a href="index.html">Início</a>                                </li>
+                                            <a href="../index.php">Início</a>                                </li>
                                         <li class="">
-                                            <a href="empresa.html">Empresa</a>                                </li>
+                                            <a href="../main/empresa.php">Empresa</a>                                </li>
                                         <li class="">
-                                            <a href="Grades.html">Produtos</a>                                </li>
+                                            <a href="../produtos/Grades.php">Produtos</a>                                </li>
                                         <li class="">
-                                            <a href="serviços.html">Serviços</a>                                </li>
+                                            <a href="../main/serviços.php">Serviços</a>                                </li>
                                         <li class="">
-                                            <a href="contactos.html">Contactos</a>                                </li>
+                                            <a href="../main/contactos.php">Contactos</a>                                </li>
                                     </ul>
 
                                 </div>
@@ -120,44 +119,46 @@
     </div>
 </div>
 
+<div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4>Produtos Desejados</h4>
 
+                    <iframe src="" width="200" height="200" scrolling="yes"></iframe>
+                </div>
+                >
+                <div class="col-sm-6">
+                    <h4>O que deseja fazer a sua Reserva?</h4>
+                    <button class="button1">Efetuar</button>
+                    <button class="button1">Atualizar</button>
+                    <button class="button1">Cancelar</button>
+                </div>
+            </div>
 
-<div class="rconta">
-<h1>Inscrever-se</h1>
-<h4>Por favor, preencha o seguinte formulario para criar uma conta.</h4>
-<hr>
-<div><form>
+        </div>
 
-    <label for="nome"><strong>Primeiro Nome</strong></label>
-    <input type="text" id="nome"placeholder="Primeiro Nome...">
-
-    <label for="unome"><strong>Ultimo Nome</strong></label>
-           <input type="text" id="unome"placeholder="Ultimo Nome">
-    <label for="tel"><strong>Telefone</strong></label>
-           <input type="text" id="tel"placeholder="Telefone">
-    <label for="morada"><strong>Morada</strong></label>
-            <input type="text" id="morada"placeholder="Morada">
-    <label for="nif"><strong>NIF</strong></label>
-            <input type="text" id="nif" placeholder="NIF">
-    <label for="email"><strong>Email</strong></label>
-            <input type="text" id="email"placeholder="Email">
-    <label for="senha"><strong>Senha</strong></label>
-          <input type="text" id="senha" placeholder="**********">
-    <label for="rsenha"><strong>Repita a Senha</strong></label>
-    <input type="text" id="rsenha" placeholder="**********">
-    <p>Ao criar uma conta, voce concorda com os nossos Termos e Privacidade.</p>
-    <input type="submit" value="Submeter">
-</form>
 </div>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="pie">
     <div class="container">
         © 2019 Serralharia RAMOS,Lda.
         <div class="menuPie">
-            <a href="contactos.html" class="">Contacto</a>
+            <a href="../main/contactos.php" class="">Contacto</a>
             <a >Design by: Group 23</a>
         </div>
     </div>

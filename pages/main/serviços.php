@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ramos: Serralharia Civil e Metalomecânica</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="stylesheet" type="text/css" media="screen" href="bitnami.css">
+    <link rel="icon" type="image/x-icon" href="../../img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../CSS/bitnami.css">
     <style>@media print {#ghostery-purple-box {display:none !important}}</style><style type="text/css">.fancybox-margin{margin-right:17px;}</style>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -19,13 +19,12 @@
 
 </head>
 <body class="">
-
 <div class="container conta">
     <div class="headerBar">
         <div class="row">
 
             <div class="headerLeft">
-                <a href="index.html" title="Ramos"><img src="img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
+                <a href="../index.php" title="Ramos"><img src="../../img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
 
             <div class="headerRight">
 
@@ -38,7 +37,7 @@
                             <form class="modal-content animate" action="/action_page.php">
                                 <div class="imgcontainer">
                                     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                                    <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+                                    <img src="../../img/img_avatar2.png" alt="Avatar" class="avatar">
                                 </div>
 
                                 <div class="container5">
@@ -98,15 +97,15 @@
                                     <ul class="nav navbar-nav">
 
                                         <li class="">
-                                            <a href="index.html">Início</a>                                </li>
+                                            <a href="../index.php">Início</a>                                </li>
                                         <li class="">
-                                            <a href="empresa.html">Empresa</a>                                </li>
+                                            <a href="empresa.php">Empresa</a>                                </li>
                                         <li class="">
-                                            <a href="Grades.html">Produtos</a>                                </li>
+                                            <a href="../produtos/Grades.php">Produtos</a>                                </li>
                                         <li class="">
-                                            <a href="serviços.html">Serviços</a>                                </li>
+                                            <a href="serviços.php">Serviços</a>                                </li>
                                         <li class="">
-                                            <a href="contactos.html">Contactos</a>                                </li>
+                                            <a href="contactos.php">Contactos</a>                                </li>
                                     </ul>
 
                                 </div>
@@ -121,23 +120,36 @@
     </div>
 </div>
 
-<div class="rconta">
-<hr>
-<h3>Criar uma nova senha</h3>
-<div>
-    <label for="senha"><strong>Senha</strong></label>
-    <input type="text" id="senha" placeholder="**********">
-    <label for="rsenha"><strong>Repita a Senha</strong></label>
-    <input type="text" id="rsenha" placeholder="**********">
-    <form action="/action_page.php">
-        <input type="submit" id= "apagar" value="Sim">
-    </form>
-
-
-</div></div>
 
 
 
+
+
+
+<div class="container">
+    <h1 align="left">Tipos de Serviços</h1></br>
+    <div class="row">
+        <div class="col-sm-6">
+            <text>Construção de gradeamento por medida<br />
+            Colocação de janelas em aluminio e estores<br />
+            Mudar fechaduras<br />
+            Colocação de Portas por medida<br />
+            Caixilhos em metal para portas e janelas<br />
+            Portas em metal<br />
+            Janelas em metal<br />
+            Barreiras e portões em metal<br />
+            Grades para vedação em metal<br />
+            Balaustradas, corrimãos e guarda-corpos em metal<br />
+            Torniquetes de metal<br />
+            Clarabóias e lanternins em metal<br />
+            Portas e janelas de segurança</text>
+        </div>
+        <div class="col-sm-6">
+            <img  width="100%" height="100%" src="https://scontent.flis7-1.fna.fbcdn.net/v/t1.0-9/37826189_2596080943951211_7729996175570370560_n.jpg?_nc_cat=109&_nc_ht=scontent.flis7-1.fna&oh=83ee617b377e4b712ccc4f6fbb2e9015&oe=5D0855B6">
+        </div>
+
+    </div>
+</div>
 
 
 
@@ -148,7 +160,7 @@
     <div class="container">
         © 2019 Serralharia RAMOS,Lda.
         <div class="menuPie">
-            <a href="contactos.html" class="">Contacto</a>
+            <a href="contactos.php" class="">Contacto</a>
             <a >Design by: Group 23</a>
         </div>
     </div>

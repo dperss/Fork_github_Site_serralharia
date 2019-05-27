@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ramos: Serralharia Civil e Metalomecânica</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="stylesheet" type="text/css" media="screen" href="bitnami.css">
+    <link rel="icon" type="image/x-icon" href="../../img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../CSS/bitnami.css">
     <style>@media print {#ghostery-purple-box {display:none !important}}</style><style type="text/css">.fancybox-margin{margin-right:17px;}</style>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -25,7 +25,7 @@
         <div class="row">
 
             <div class="headerLeft">
-                <a href="index.html" title="Ramos"><img src="img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
+                <a href="../index.php" title="Ramos"><img src="../../img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
 
             <div class="headerRight">
 
@@ -38,7 +38,7 @@
                             <form class="modal-content animate" action="/action_page.php">
                                 <div class="imgcontainer">
                                     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                                    <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+                                    <img src="../../img/img_avatar2.png" alt="Avatar" class="avatar">
                                 </div>
 
                                 <div class="container5">
@@ -98,15 +98,15 @@
                                     <ul class="nav navbar-nav">
 
                                         <li class="">
-                                            <a href="index.html">Início</a>                                </li>
+                                            <a href="../index.php">Início</a>                                </li>
                                         <li class="">
-                                            <a href="empresa.html">Empresa</a>                                </li>
+                                            <a href="../main/empresa.php">Empresa</a>                                </li>
                                         <li class="">
-                                            <a href="Grades.html">Produtos</a>                                </li>
+                                            <a href="Grades.php">Produtos</a>                                </li>
                                         <li class="">
-                                            <a href="serviços.html">Serviços</a>                                </li>
+                                            <a href="../main/serviços.php">Serviços</a>                                </li>
                                         <li class="">
-                                            <a href="contactos.html">Contactos</a>                                </li>
+                                            <a href="../main/contactos.php">Contactos</a>                                </li>
                                     </ul>
 
                                 </div>
@@ -121,8 +121,6 @@
     </div>
 </div>
 
-
-
 <div class="container">
 
     <div class="row">
@@ -131,10 +129,10 @@
 
             <h1 class="my-4">Categorias</h1>
             <div class="list-group">
-                <a href="Grades.html" class="list-group-item">Grades</a>
-                <a href="Portas.html" class="list-group-item">Portas</a>
-                <a href="Janelas.html" class="list-group-item">Janelas</a>
-                <a href="Portoes.html" class="list-group-item">Portões</a>
+                <a href="Grades.php" class="list-group-item">Grades</a>
+                <a href="Portas.php" class="list-group-item">Portas</a>
+                <a href="Janelas.php" class="list-group-item">Janelas</a>
+                <a href="Portoes.php" class="list-group-item">Portões</a>
             </div>
 
         </div>
@@ -146,7 +144,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="img\jan\jan1.jpg" alt=""></a>
+                        <a href="#"><img class="card-img-top" src="..\..\img\portas\port1.png" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a href="#">Reserva</a>
@@ -160,7 +158,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="img\jan\jan2.jpg" alt=""></a>
+                        <a href="#"><img class="card-img-top" src="..\..\img\portas\port2.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a href="#">Reserva</a>
@@ -173,7 +171,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="img\jan\jan3.jpg" alt=""></a>
+                        <a href="#"><img class="card-img-top" src="..\..\img\portas\port3.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a href="#">Reserva</a>
@@ -186,7 +184,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="img\jan\jan4.jpg" alt=""></a>
+                        <a href="#"><img class="card-img-top" src="..\..\img\portas\port4.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a href="#">Reserva</a>
@@ -199,7 +197,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="img\jan\jan5.jpg"  alt=""></a>
+                        <a href="#"><img class="card-img-top" src="..\..\img\portas\port5.jpg"  alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a href="#">Reserva</a>
@@ -212,7 +210,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="img\jan\jan6.jpg" alt=""></a>
+                        <a href="#"><img class="card-img-top" src="..\..\img\portas\port6.jpg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a href="#">Reserva</a>
@@ -237,11 +235,12 @@
 
 
 
+
 <div class="pie">
     <div class="container">
         © 2019 Serralharia RAMOS,Lda.
         <div class="menuPie">
-            <a href="contactos.html" class="">Contacto</a>
+            <a href="../main/contactos.php" class="">Contacto</a>
             <a >Design by: Group 23</a>
         </div>
     </div>

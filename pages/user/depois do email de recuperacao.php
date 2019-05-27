@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ramos: Serralharia Civil e Metalomecânica</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="stylesheet" type="text/css" media="screen" href="bitnami.css">
+    <link rel="icon" type="image/x-icon" href="../../img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../CSS/bitnami.css">
     <style>@media print {#ghostery-purple-box {display:none !important}}</style><style type="text/css">.fancybox-margin{margin-right:17px;}</style>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
 </head>
 <body class="">
+
 <div class="container conta">
     <div class="headerBar">
         <div class="row">
 
             <div class="headerLeft">
-                <a href="index.html" title="Ramos"><img src="img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
+                <a href="../index.php" title="Ramos"><img src="../../img/Menu_image.png" alt="Logotipo Serralharia Ramos" title="Logotipo Serralharia Ramos" class="logo"></a>          </div>
 
             <div class="headerRight">
 
@@ -37,7 +38,7 @@
                             <form class="modal-content animate" action="/action_page.php">
                                 <div class="imgcontainer">
                                     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                                    <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+                                    <img src="../../img/img_avatar2.png" alt="Avatar" class="avatar">
                                 </div>
 
                                 <div class="container5">
@@ -97,15 +98,15 @@
                                     <ul class="nav navbar-nav">
 
                                         <li class="">
-                                            <a href="index.html">Início</a>                                </li>
+                                            <a href="../index.php">Início</a>                                </li>
                                         <li class="">
-                                            <a href="empresa.html">Empresa</a>                                </li>
+                                            <a href="../main/empresa.php">Empresa</a>                                </li>
                                         <li class="">
-                                            <a href="Grades.html">Produtos</a>                                </li>
+                                            <a href="../produtos/Grades.php">Produtos</a>                                </li>
                                         <li class="">
-                                            <a href="serviços.html">Serviços</a>                                </li>
+                                            <a href="../main/serviços.php">Serviços</a>                                </li>
                                         <li class="">
-                                            <a href="contactos.html">Contactos</a>                                </li>
+                                            <a href="../main/contactos.php">Contactos</a>                                </li>
                                     </ul>
 
                                 </div>
@@ -120,34 +121,23 @@
     </div>
 </div>
 
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-6">
-            <text>
-                <h3><strong>Morada</strong><br /></h3>
-                Lugar da Moreirinha, 5100-550
-                ,
-                Lalim Lamego
-                ,
-                Viseu<br />
-
-                <h3><strong>Telemóvel</strong></h3><abbr title="Telemóvel">T:</abbr> 932 863 098
-            </text>
+<div class="rconta">
+<hr>
+<h3>Criar uma nova senha</h3>
+<div>
+    <label for="senha"><strong>Senha</strong></label>
+    <input type="text" id="senha" placeholder="**********">
+    <label for="rsenha"><strong>Repita a Senha</strong></label>
+    <input type="text" id="rsenha" placeholder="**********">
+    <form action="/action_page.php">
+        <input type="submit" id= "apagar" value="Sim">
+    </form>
 
 
-                <h3><strong>Redes socias</strong><br /></h3>
-                <a href="https://www.facebook.com/SerralhariaRamos.Lalim/" class="fa fa-facebook"></a>
+</div></div>
 
-        </div>
-        <div class="col-sm-6">
-            <div align="center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d402.889591335567!2d-7.801427130115745!3d41.03863243347346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24aac72674a607%3A0x62b6a25e4acb60c9!2sEM521!5e1!3m2!1spt-PT!2spt!4v1553766777935!5m2!1spt-PT!2spt" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-        </div>
 
-    </div>
-</div>
+
 
 
 
@@ -158,7 +148,7 @@
     <div class="container">
         © 2019 Serralharia RAMOS,Lda.
         <div class="menuPie">
-            <a href="contactos.html" class="">Contacto</a>
+            <a href="../main/contactos.php" class="">Contacto</a>
             <a >Design by: Group 23</a>
         </div>
     </div>
