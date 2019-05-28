@@ -2,49 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52049a9a-5806-4ee4-96b7-2f2619ad3efd" name="Default Changelist" comment="Controller Alpha,compus os links todos">
-      <change afterPath="$PROJECT_DIR$/CSS/bitnami.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/CategoriaController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/MensagemController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/ProdutoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Produtos_ReservadosController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/ReservaController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/UtilizadorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/main/contactos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/main/empresa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/main/serviços.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/produtos/Grades.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/produtos/Janelas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/produtos/Portas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/produtos/Portoes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/user/Apagarconta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/user/Atualizar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/user/Criaçãocliente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/user/Definiçõesdeconta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/user/Geriereservacliente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/user/Mudarsenha.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/user/Recuperar_conta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/user/depois do email de recuperacao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/paginainicial.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Apagarconta.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Atualizar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Criaçãocliente.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Definiçõesdeconta.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Geriereservacliente.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Getãoadmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Getãoadmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Grades.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Janelas.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Mudarsenha.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Portas.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Portoes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Recuperar_conta.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/bitnami.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contactos.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/depois do email de recuperacao.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/empresa.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/gestaodereservas.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gestaodereservas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/serviços.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/contactos.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main/contactos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/empresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main/empresa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/serviços.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main/serviços.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/produtos/Grades.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/produtos/Grades.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/produtos/Janelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/produtos/Janelas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/produtos/Portas.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/produtos/Portas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/produtos/Portoes.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/produtos/Portoes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/Apagarconta.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/Apagarconta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/Atualizar.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/Atualizar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/Criaçãocliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/Criaçãocliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/Definiçõesdeconta.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/Definiçõesdeconta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/Geriereservacliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/Geriereservacliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/Mudarsenha.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/Mudarsenha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/Recuperar_conta.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/Recuperar_conta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/depois do email de recuperacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/depois do email de recuperacao.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,19 +46,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/MainController.php">
+        <entry file="file://$PROJECT_DIR$/pages/user/Criaçãocliente.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/gestaodereservas.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-117" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/user/Geriereservacliente.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/user/Atualizar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSS/bitnami.css">
+        <entry file="file://$PROJECT_DIR$/pages/user/Definiçõesdeconta.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="611" column="1" lean-forward="true" selection-start-line="611" selection-start-column="1" selection-end-line="611" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="17" column="90" lean-forward="true" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/UtilizadorController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-850">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="99" column="55" selection-start-line="99" selection-start-column="55" selection-end-line="99" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -164,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/minify.css" />
         <option value="$PROJECT_DIR$/serviços.html" />
         <option value="$PROJECT_DIR$/contactos.html" />
         <option value="$PROJECT_DIR$/empresa.html" />
@@ -195,28 +214,34 @@
         <option value="$PROJECT_DIR$/controllers/Produtos_ReservadosController.php" />
         <option value="$PROJECT_DIR$/controllers/ReservaController.php" />
         <option value="$PROJECT_DIR$/controllers/ProdutoController.php" />
-        <option value="$PROJECT_DIR$/pages/index.php" />
-        <option value="$PROJECT_DIR$/pages/produtos/Grades.php" />
-        <option value="$PROJECT_DIR$/pages/produtos/Janelas.php" />
-        <option value="$PROJECT_DIR$/pages/produtos/Portoes.php" />
-        <option value="$PROJECT_DIR$/pages/produtos/Portas.php" />
-        <option value="$PROJECT_DIR$/pages/main/serviços.php" />
-        <option value="$PROJECT_DIR$/pages/user/Apagarconta.php" />
-        <option value="$PROJECT_DIR$/pages/user/Criaçãocliente.php" />
-        <option value="$PROJECT_DIR$/pages/user/Definiçõesdeconta.php" />
-        <option value="$PROJECT_DIR$/pages/user/Mudarsenha.php" />
-        <option value="$PROJECT_DIR$/pages/user/Recuperar_conta.php" />
-        <option value="$PROJECT_DIR$/pages/main/empresa.php" />
-        <option value="$PROJECT_DIR$/pages/main/contactos.php" />
-        <option value="$PROJECT_DIR$/pages/user/Atualizar.php" />
-        <option value="$PROJECT_DIR$/pages/user/depois do email de recuperacao.php" />
-        <option value="$PROJECT_DIR$/pages/user/Geriereservacliente.php" />
-        <option value="$PROJECT_DIR$/pages/Getãoadmin.php" />
-        <option value="$PROJECT_DIR$/pages/gestaodereservas.php" />
         <option value="$PROJECT_DIR$/controllers/MainController.php" />
         <option value="$PROJECT_DIR$/CSS/bitnami.css" />
+        <option value="$PROJECT_DIR$/pages/paginainicial.php" />
+        <option value="$PROJECT_DIR$/pages/user/Criaçãocliente.php" />
+        <option value="$PROJECT_DIR$/pages/main/contactos.php" />
+        <option value="$PROJECT_DIR$/pages/main/empresa.php" />
+        <option value="$PROJECT_DIR$/pages/main/serviços.php" />
+        <option value="$PROJECT_DIR$/pages/produtos/Grades.php" />
+        <option value="$PROJECT_DIR$/pages/produtos/Janelas.php" />
+        <option value="$PROJECT_DIR$/pages/produtos/Portas.php" />
+        <option value="$PROJECT_DIR$/pages/produtos/Portoes.php" />
+        <option value="$PROJECT_DIR$/pages/Getãoadmin.php" />
+        <option value="$PROJECT_DIR$/pages/user/Recuperar_conta.php" />
+        <option value="$PROJECT_DIR$/pages/user/depois do email de recuperacao.php" />
+        <option value="$PROJECT_DIR$/pages/user/Geriereservacliente.php" />
+        <option value="$PROJECT_DIR$/pages/user/Mudarsenha.php" />
+        <option value="$PROJECT_DIR$/pages/user/Apagarconta.php" />
+        <option value="$PROJECT_DIR$/pages/index.php" />
+        <option value="$PROJECT_DIR$/pages/gestaodereservas.php" />
+        <option value="$PROJECT_DIR$/pages/user/Atualizar.php" />
+        <option value="$PROJECT_DIR$/pages/user/Definiçõesdeconta.php" />
       </list>
     </option>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="cbcc486d-2860-4b00-a408-14c8eb45e286" name="Unnamed" />
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php_installation_&lt;version&gt;" />
   <component name="ProjectFrameBounds" extendedState="6">
@@ -246,6 +271,34 @@
               <item name="site_serralharia" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="site_serralharia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_serralharia" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site_serralharia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_serralharia" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site_serralharia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_serralharia" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site_serralharia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_serralharia" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="produtos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site_serralharia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_serralharia" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -255,7 +308,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Exercício20" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -273,10 +326,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Web Page.Unnamed">
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/site_serralharia/pages/index.php">
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" nameIsGenerated="true" server_name="Unnamed" start_url="/site_serralharia/pages">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.php" />
+      <item itemvalue="PHP Web Page.Unnamed" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.php" />
@@ -333,6 +393,8 @@
       <workItem from="1558959797356" duration="5056000" />
       <workItem from="1558981080671" duration="3290000" />
       <workItem from="1558992062956" duration="2891000" />
+      <workItem from="1559078177570" duration="27000" />
+      <workItem from="1559078206317" duration="5749000" />
     </task>
     <task id="LOCAL-00001" summary="Produtos">
       <created>1554366509882</created>
@@ -394,16 +456,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157171000" />
+    <option name="totallyTimeSpent" value="162947000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.19062027" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32872504" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19667171" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -417,6 +478,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32718894" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
+      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -425,7 +487,7 @@
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19062027" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19667171" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -439,6 +501,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32718894" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
+      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -504,14 +567,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Controller Alpha,compus os links todos" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/produtos.html" />
     <entry file="file://$PROJECT_DIR$/Janelas.html~origin_master" />
     <entry file="file://$PROJECT_DIR$/Portas.html" />
     <entry file="file://$PROJECT_DIR$/bitnami.css" />
@@ -643,142 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/UtilizadorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1046">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/applications.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/produtos/Grades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/produtos/Janelas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="243" column="29" selection-start-line="243" selection-start-column="29" selection-end-line="243" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/produtos/Portoes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/produtos/Portas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/main/empresa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/main/contactos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/main/serviços.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/Apagarconta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/Atualizar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/Criaçãocliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="141" column="58" lean-forward="true" selection-start-line="141" selection-start-column="58" selection-end-line="141" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/Definiçõesdeconta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="135" column="20" lean-forward="true" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/depois do email de recuperacao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/Geriereservacliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="96" column="38" selection-start-line="96" selection-start-column="38" selection-end-line="108" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/Recuperar_conta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="128" column="50" lean-forward="true" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/Mudarsenha.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="93" column="28" lean-forward="true" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gestaodereservas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="85" column="59" lean-forward="true" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Getãoadmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/CategoriaController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
@@ -788,15 +707,154 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/bitnami.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="611" column="1" lean-forward="true" selection-start-line="611" selection-start-column="1" selection-end-line="611" selection-end-column="1" />
+        <state relative-caret-position="10387">
+          <caret line="611" column="1" selection-start-line="611" selection-start-column="1" selection-end-line="611" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/paginainicial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/main/contactos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/main/empresa.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/main/serviços.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/produtos/Grades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2090#2097#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/produtos/Janelas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="134" column="55" selection-start-line="134" selection-start-column="55" selection-end-line="134" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/produtos/Portas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="131" column="55" selection-start-line="131" selection-start-column="55" selection-end-line="131" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/port/port5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/produtos/Portoes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Getãoadmin.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/user/Mudarsenha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/user/depois do email de recuperacao.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/user/Recuperar_conta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/user/Apagarconta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/applications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-760" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UtilizadorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/user/Criaçãocliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/user/Geriereservacliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/user/Atualizar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="99" column="55" selection-start-line="99" selection-start-column="55" selection-end-line="99" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gestaodereservas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/user/Definiçõesdeconta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="90" lean-forward="true" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
         </state>
       </provider>
     </entry>

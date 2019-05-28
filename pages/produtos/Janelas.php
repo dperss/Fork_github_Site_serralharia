@@ -131,10 +131,10 @@
 
             <h1 class="my-4">Categorias</h1>
             <div class="list-group">
-                <a href="Grades.php" class="list-group-item">Grades</a>
-                <a href="Portas.php" class="list-group-item">Portas</a>
-                <a href="Janelas.php" class="list-group-item">Janelas</a>
-                <a href="Portoes.php" class="list-group-item">Portões</a>
+                <a href="index.php?page=produtos/Grades" class="list-group-item">Grades</a>
+                <a href="index.php?page=produtos/Portas" class="list-group-item">Portas</a>
+                <a href="index.php?page=produtos/Janelas" class="list-group-item">Janelas</a>
+                <a href="index.php?page=produtos/Portoes" class="list-group-item">Portões</a>
             </div>
 
         </div>
