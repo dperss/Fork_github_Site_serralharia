@@ -12,7 +12,7 @@
             </h4>
         </div>
         <div class="col-sm-6">
-            <img src="../../img/carrosel_2.jpg" alt="" height="100%" width="100%">
+            <img src="/./img/carrosel_2.jpg" alt="" height="100%" width="100%">
         </div>
 
     </div>

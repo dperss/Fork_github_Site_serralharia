@@ -7,11 +7,7 @@ require_once dirname(__FILE__).'/../DAL/ProdutoDAL.php';
  * and open the template in the editor.
  */
 
-/**
- * Description of Categoria
- *
- * @author Diogo Ramos
- */
+
 class Categoria {
 
     public $id;
