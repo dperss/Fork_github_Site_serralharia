@@ -1,7 +1,8 @@
 <?php
-require_once dirname(__FILE__)."/../BL/Utilizador.php";
+require_once dirname(__FILE__)."../BL/Utilizador.php";
 
 class UtilizadorController {
+
     public static function getCRUDMenu(){
         $menu=[
             [
@@ -40,8 +41,13 @@ class UtilizadorController {
     
     public static function createUtilizador(&$msg){
         $utilizador= new Utilizador();
-        $utilizador->login=$_POST['login'];
+        $utilizador->nome=$_POST['nome'];
+        $utilizador->email=$_POST['email'];
         $utilizador->password=$_POST['password'];
+        $utilizador->id=$_POST['id'];
+        $utilizador->endereco=$_POST['endereco'];
+        $utilizador->Tipo_de_Utilizador=$_POST['Tipo_de_Utilizador'];
+        $utilizador->NIF=$_POST['NIF'];
         $create=TRUE;//se for para criar registos na BD
        
         if($utilizador->validate($create)){
@@ -63,7 +69,7 @@ class UtilizadorController {
     
     public static function login(&$msg){
         $user= new Utilizador();
-        $user->login=$_POST['login'];
+        $user->email=$_POST['email'];
         $user->password=$_POST['password'];
         $a=$user->retrieveByLoginPassword();
         
@@ -83,13 +89,13 @@ class UtilizadorController {
         $_SESSION['id']=null;
         header("Location: index.php");
     }
-    
-    public static function nUtilizadores(){ 
+
+    public static function nUtilizadores(){
         $utilizador= new Utilizador();
         $nUtilizadores=$utilizador->nUtilizadores();
         return $nUtilizadores;
     }
-    
+
     public static function delete(&$msg){
         $utilizador= new Utilizador();
         $utilizador->id=$_POST['id'];
@@ -100,13 +106,16 @@ class UtilizadorController {
             $msg["insucesso"][]="Utilizador não removido.";
         }
     }
-    
+
     public static function update(&$msg){
         $utilizador= new Utilizador();
-        $utilizador->login=$_POST['login'];
+        $utilizador->nome=$_POST['nome'];
+        $utilizador->email=$_POST['email'];
         $utilizador->password=$_POST['password'];
-        $utilizador->admin=$_POST['admin'];
         $utilizador->id=$_POST['id'];
+        $utilizador->endereco=$_POST['endereco'];
+        $utilizador->Tipo_de_Utilizador=$_POST['Tipo_de_Utilizador'];
+        $utilizador->NIF=$_POST['NIF'];
         $create=FALSE;//se não for para criar registos na BD, apenas para alterar
         
         if($utilizador->validate($create)){

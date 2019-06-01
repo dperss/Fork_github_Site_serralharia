@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__)."/../BL/Mensagem.php";
+require_once dirname(__FILE__)."../BL/Mensagem.php";
 
 class MensagemController {
     public static function getCRUDMenu(){

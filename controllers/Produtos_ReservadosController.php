@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__)."/../BL/Produtos_Reservados.php";
+require_once dirname(__FILE__)."../BL/Produtos_Reservados.php";
 
 class Produtos_ReservadosController {
     public static function getCRUDMenu(){

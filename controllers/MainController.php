@@ -19,9 +19,26 @@ class MainController {
     }
     
     public static function getMainMenu(){
+        $menu=[
+            [
+                'text' => 'Utilizador',
+                'url' => 'index.php?page=utilizador/utilizadores',
+                'visible' => 'return !isset($_GET["page"]) || $_GET["page"]!="utilizador/utilizadores";'
+            ],
+            [
+                'text' => 'Empresa',
+                'url' => 'index.php?page=empresa/empresas',
+                'visible' => 'return !isset($_GET["page"]) || $_GET["page"]!="empresa/empresas";'
+            ],
+            [
+                'text' => 'Homepage',
+                'url' => 'index.php',
+                'visible' => 'return true;'
+            ]
 
+        ];
 
-        //Escrever merdas
+        return ($menu);
     }
 
 

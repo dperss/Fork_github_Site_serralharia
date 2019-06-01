@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__)."/../BL/Categoria.php";
+require_once dirname(__FILE__)."../BL/Categoria.php";
 
 class CategoriaController {
     public static function getCRUDMenu(){
@@ -38,7 +38,6 @@ class CategoriaController {
     public static function createCategoria(&$msg){
         $categoria= new Categoria();
         $categoria->nome=$_POST['nome'];
-        $categoria->Categoria_id=$_POST['Categoria_id'];
         $create=TRUE;//se for para criar registos na BD
 
         if($categoria->validate($create)){

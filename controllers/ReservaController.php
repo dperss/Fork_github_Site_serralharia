@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__)."/../BL/Reserva.php";
+require_once dirname(__FILE__)."../BL/Reserva.php";
 
 class ReservaController {
     public static function getCRUDMenu(){

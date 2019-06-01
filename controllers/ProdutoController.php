@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__)."/../BL/Produto.php";
+require_once dirname(__FILE__)."../BL/Produto.php";
 
 class ProdutoController {
     public static function getCRUDMenu(){
