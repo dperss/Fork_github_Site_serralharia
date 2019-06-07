@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__)."../BL/Utilizador.php";
+require_once "BL/Utilizador.php";
 
 class UtilizadorController {
 

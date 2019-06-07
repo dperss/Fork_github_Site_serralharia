@@ -1,6 +1,6 @@
 <?php
-require_once '../../controllers/UtilizadorController.php';
-require_once $_SERVER['DOCUMENT_ROOT']. '../../controllers/UtilizadorController.php';
+require_once '../controllers/UtilizadorController.php';
+require_once $_SERVER['DOCUMENT_ROOT']. '../controllers/UtilizadorController.php';
 ?>
 <div id="CRUDMenu">
     <ul>

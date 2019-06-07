@@ -1,5 +1,5 @@
 <?php
-    require_once dirname(__FILE__).'/../DAL/UtilizadorDAL.php';
+    require_once dirname(__FILE__).'../DAL/UtilizadorDAL.php';
 
 /*
  * To change this license header, choose License Headers in Project Properties.

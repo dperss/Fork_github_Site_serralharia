@@ -138,20 +138,12 @@
 
       </div>
   </main>
-
-
-
-
-
-
-
-
     <div class="pie">
       <div class="container">
           © 2019 Serralharia RAMOS,Lda.
           <div class="menuPie">
               <a href="index.php?page=main/contactos" class="">Contacto</a>
-              <a >Design by: Group 23</a>
+              <a href="index.php?page=Getãoadmin" class="">Design by: Group 23</a>
           </div>
       </div>
 
