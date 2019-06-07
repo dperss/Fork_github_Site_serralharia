@@ -27,7 +27,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Porta de entrada em alumínio com vidro com cores variadas</p>
                         </div>
 
                     </div>
@@ -41,7 +41,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Porta de entrada em alumínio com tom similar a madeira</p>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Porta de entrada em alumínio com tom similar a madeira com pequenos vidros</p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Porta de entrada em alumínio para exterior </p>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Porta de entrada em alumínio para exterior em estilo Rústico</p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Porta de entrada em alumínio para exterior em variadas cores</p>
                         </div>
 
                     </div>

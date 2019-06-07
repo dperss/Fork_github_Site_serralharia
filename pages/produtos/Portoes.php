@@ -27,7 +27,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 500€-1500€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Portão de entrada com várias cores à escolha</p>
                         </div>
 
                     </div>
@@ -41,7 +41,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 550€-1550€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Portão de entrada em ferro com várias cores à escolha</p>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 800€-1200€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Portão de entrada em ferro com várias cores à escolha</p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Portão de entrada em ferro com várias cores à escolha</p>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 1500€-2500€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Portão de entrada em ferro mais rústico com várias cores à escolha</p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 500€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Portão de entrada em ferro com várias cores à escolha</p>
                         </div>
 
                     </div>

@@ -27,7 +27,7 @@
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
                             <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <p class="card-text">Pequena janela com estore incluído</p>
                         </div>
 
                     </div>
@@ -40,8 +40,8 @@
                             <h4 class="card-title">
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
-                            <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <h5>Preço estimado 650€-1700€</h5>
+                            <p class="card-text">Janela de 2 portadas para muita luminosidade</p>
                         </div>
                     </div>
                 </div>
@@ -53,8 +53,8 @@
                             <h4 class="card-title">
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
-                            <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <h5>Preço estimado 700€-1700€</h5>
+                            <p class="card-text">Janela de 2 portadas para sala de estar ou jantar</p>
                         </div>
                     </div>
                 </div>
@@ -66,8 +66,8 @@
                             <h4 class="card-title">
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
-                            <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <h5>Preço estimado 450€-1700€</h5>
+                            <p class="card-text">Pequena janela de alumínio com vidro opaco, ideal para um WC </p>
                         </div>
                     </div>
                 </div>
@@ -79,8 +79,8 @@
                             <h4 class="card-title">
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
-                            <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <h5>Preço estimado 500€-1700€</h5>
+                            <p class="card-text">Pequena janela de alumínio</p>
                         </div>
                     </div>
                 </div>
@@ -92,8 +92,8 @@
                             <h4 class="card-title">
                                 <a href="index.php?page=user/Geriereservacliente">Reserva</a>
                             </h4>
-                            <h5>Preço estimado 567€-1700€</h5>
-                            <p class="card-text">Texto filler Texto filler Texto filler Texto filler Texto filler  Texto filler Texto filler</p>
+                            <h5>Preço estimado 550€-1700€</h5>
+                            <p class="card-text">Pequena janela de alumínio</p>
                         </div>
 
                     </div>
